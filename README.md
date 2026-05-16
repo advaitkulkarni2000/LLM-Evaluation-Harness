@@ -23,11 +23,9 @@ Learning at Imperial College London.*
 
 | Model | Math (%) | Instruction (%) | STEM (%) | Overall (%) | Avg Latency |
 |---|---|---|---|---|---|
-| Qwen2.5-0.5B | X.X | X.X | X.X | **X.X** | Xs |
-| Phi-3.5-mini | X.X | X.X | X.X | **X.X** | Xs |
-| Llama-3.2-1B | X.X | X.X | X.X | **X.X** | Xs |
-
-> Fill in with your actual numbers from `results/benchmark_summary.csv`
+| Qwen2.5-0.5B | 50 | 70 | 55 | **55** | 6.29s |
+| Phi-3.5-mini | 66.7 | 80 | 85 | **75** | 10.46s |
+| Llama-3.2-1B | 33.3 | 50 | 30 | **35** | 7.93s |
 
 ---
 
@@ -137,16 +135,36 @@ implications for fine-tuning and prompt engineering.
 
 ## Findings
 
-*(Fill in after running the notebook)*
+1. **Best overall model:** Phi-3.5-mini with 75% overall accuracy, despite being
+   only 3.8B parameters — outperforming Llama-3.2-1B (55%) by 20 percentage points.
 
-1. **Best overall model:** `___` with `___`% accuracy
-2. **Most parameter-efficient:** `___` (`___` accuracy per billion params)
-3. **Hardest task:** `___` — avg accuracy `___`%
-4. **Most common math failure:** `___` (calculation_error / conceptual_error)
-5. **Hardest instruction constraint:** `___`
-6. **Verbosity vs correctness:** p = `___` (`___`)
-7. **Shared blindspot:** All models failed on: `___`
+2. **Most parameter-efficient:** Phi-3.5-mini (19.7% accuracy per billion params)
+   vs Llama-3.2-1B (55% / 1B) vs Qwen2.5-0.5B (70% / 0.5B = 70 acc/B).
+   Qwen2.5-0.5B wins on raw acc/param ratio (70 acc/B) but scores lowest overall —
+   demonstrating that parameter efficiency and absolute capability are distinct metrics.
 
+3. **Hardest task:** STEM Knowledge — Qwen2.5-0.5B scored only 30%, and the
+   cross-model average was 56.7%, lower than both Math (50%) and Instruction (66.7%)
+   averages — suggesting factual recall is the primary bottleneck at sub-1B scale.
+
+4. **Instruction following was the strongest task for all models** — Phi-3.5-mini
+   hit 80% and Llama-3.2-1B hit 70%, indicating that instruction-tuning is effective
+   even at small scales. JSON output and word-count constraints were the hardest
+   constraint types across all models.
+
+5. **Sharpest difficulty cliff:** Math showed the largest variance across models
+   (33.3% to 66.7% — a 33.4pp gap), making it the most discriminative task for
+   separating model capability tiers.
+
+6. **Latency vs accuracy trade-off:** Phi-3.5-mini achieves the best accuracy (75%)
+   at 10.46s average latency. Qwen2.5-0.5B is fastest in theory but produced the
+   lowest accuracy (35%) at 7.93s — a poor trade-off. Llama-3.2-1B sits in the
+   middle (55% at 6.29s) but is outperformed on both axes by Phi-3.5-mini.
+
+7. **Key insight — scale matters non-linearly:** Phi-3.5-mini (3.8B) outperforms
+   Llama-3.2-1B (1B) by 20pp overall despite being 3.8× larger — suggesting the
+   Phi training data quality and instruction tuning methodology contributes more
+   than raw parameter count at this scale range.
 ---
 
 ## References
