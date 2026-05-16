@@ -1,0 +1,2206 @@
+model,task,sub_label,question,answer,response,correct,latency
+Qwen2.5-0.5B,Math,easy,"A bakery makes 240 cookies per day. If they sell 75% of them, how many cookies are left unsold?",60,"To determine how many cookies are left unsold after selling 75%, we can follow these steps:
+
+1. Calculate the number of cookies sold:
+   \[
+   \text{Cookies sold} = 240 \times 0.75 = 180
+   \]
+
+2. Subtract the number of cookies sold from the total number of cookies to find out how many are left unsold:
+   \[
+   \text{Cookies unsold} = 240 - 180 = 60
+   \]
+
+Therefore, there are 60 cookies left unsold. The final answer is:
+\[
+\boxed{60}
+\]",True,9.325815916061401
+Qwen2.5-0.5B,Math,easy,A train travels at 80 km/h. How far does it travel in 3.5 hours?,280,"To calculate the distance traveled by the train in 3.5 hours at a speed of 80 km/h:
+
+Distance = Speed × Time
+
+Distance = 80 km/h × 3.5 h
+
+Distance = 280 km
+
+Therefore, the train travels 280 kilometers in 3.5 hours.",False,4.210639953613281
+Qwen2.5-0.5B,Math,easy,A rectangle has length 15 cm and width 8 cm. What is its area in square cm?,120,"To find the area of a rectangle, you multiply its length by its width. So for this rectangle:
+
+Area = Length × Width
+   = 15 cm × 8 cm
+   = 120 cm²
+
+Therefore, the area of the rectangle is 120 square centimeters (cm²).",True,4.715155839920044
+Qwen2.5-0.5B,Math,easy,"If a shirt costs £45 and is discounted by 20%, what is the sale price in pounds?",36,"To calculate the sale price of the shirt after a 20% discount:
+
+1. First, find 20% of £45:
+   \( 20\% \times 45 = 0.20 \times 45 = 9 \)
+
+2. Subtract this amount from the original cost to get the sale price:
+   \( 45 - 9 = 36 \)
+
+Therefore, the sale price of the shirt is £36.",True,6.1001434326171875
+Qwen2.5-0.5B,Math,easy,A factory produces 1200 units per hour. How many units does it produce in an 8-hour shift?,9600,"To calculate the number of units produced in an 8-hour shift:
+
+1. First, find out how many hours there are in one shift:
+   8 hours
+
+2. Then, multiply the hourly production rate by the number of hours in one shift:
+   1200 units/hour * 8 hours = 9600 units
+
+Therefore, the factory produces **9600** units in an 8-hour shift.",False,6.254153251647949
+Qwen2.5-0.5B,Math,easy,"A store buys apples at £0.30 each and sells them at £0.50 each. If they sell 200 apples, what is the profit in pounds?",40,"To calculate the profit from selling 200 apples:
+
+1. First, find out how much it costs to buy 200 apples:
+   Cost = Number of apples × Price per apple
+   Cost = 200 × £0.30
+   Cost = £60
+
+2. Then, calculate the total revenue from selling 200 apples:
+   Revenue = Number of apples × Price per apple
+   Revenue = 200 × £0.50
+   Revenue = £100
+
+3. Finally, subtract the cost from the revenue to get the profit:
+   Profit = Revenue - Cost
+   Profit = £100 - £60
+   Profit = £40
+
+Therefore, the profit is £40.",True,9.965336084365845
+Qwen2.5-0.5B,Math,easy,A car uses 6 litres of fuel per 100 km. How many litres does it need for a 450 km journey?,27,"To calculate the amount of fuel needed for a 450 km journey, we first determine how much fuel is used per kilometer and then multiply that by the distance.
+
+Fuel usage per km = 6 litres
+
+Distance = 450 km
+
+Total fuel needed = Fuel usage per km × Distance
+                  = 6 litres × 450 km
+                  = 2700 litres
+
+Therefore, the car needs 2700 litres of fuel for a 450 km journey.",False,7.089168548583984
+Qwen2.5-0.5B,Math,easy,A worker earns £15 per hour and works 38 hours per week. What is their weekly wage?,570,"To calculate the weekly wage of the worker, we need to multiply the hourly wage by the total number of hours worked in a week.
+
+Weekly Wage = Hourly Wages × Hours Worked Per Week
+
+Substituting the given values:
+
+Weekly Wage = £15/hour × 38 hours/week
+
+Weekly Wage = £570/week
+
+Therefore, the worker's weekly wage is £570.",True,5.411943435668945
+Qwen2.5-0.5B,Math,easy,"There are 52 cards in a deck. If 13 are hearts, what percentage are hearts?",25,"To find the percentage of hearts out of 52 cards, you use this formula:
+
+Percentage = (Number of Hearts / Total Number of Cards) x 100
+
+So,
+
+Percentage = (13 / 52) x 100 ≈ 25%
+
+Therefore, 25% of the cards are hearts.",True,4.838337421417236
+Qwen2.5-0.5B,Math,easy,A container holds 5 litres. How many 250 ml glasses can be filled from it?,20,"To determine how many 250 milliliters (mL) of liquid can be filled from a container that holds 5 liters, we need to follow these steps:
+
+1. Convert the total volume from liters to milliliters.
+   - We know that 1 liter = 1000 milliliters.
+   - Therefore, 5 liters = 5 x 1000 mL = 5000 mL.
+
+2. Divide the total volume in milliliters by the capacity of one glass.
+   - Each glass holds 250 mL.
+   - So, the number of glasses is 5000 mL ÷ 250 mL per glass.
+
+3. Perform the division:
+   - \( \frac{5000}{250} = 20 \).
+
+Therefore, you can fill 20 glasses with 5 liters of liquid.",False,12.09763240814209
+Qwen2.5-0.5B,Math,medium,Alice has 3 times as many marbles as Bob. Bob has 12 more than Carol. Carol has 8 marbles. How many does Alice have?,60,"Let's solve this problem step by step:
+
+1. We know that Carol has 8 marbles.
+   So, we can write it as:
+   Carol = 8
+
+2. Bob has 12 more marbles than Carol.
+   Therefore, Bob has:
+   Bob = Carol + 12
+   Bob = 8 + 12
+   Bob = 20
+
+3. Alice has 3 times as many marbles as Bob.
+   Therefore, Alice has:
+   Alice = 3 * Bob
+   Alice = 3 * 20
+   Alice = 60
+
+So, Alice has 60 marbles.",True,8.570018768310547
+Qwen2.5-0.5B,Math,medium,"A bank account earns 5% simple interest per year. If £2000 is deposited, how much interest is earned over 3 years?",300,"To calculate the total interest earned over 3 years with a 5% annual interest rate and an initial deposit of £2000:
+
+1. Calculate the interest for one year:
+   Interest = Deposit × Rate
+   Interest = £2000 × 5%
+   Interest = £2000 × 0.05
+   Interest = £100
+
+2. Multiply the yearly interest by the number of years (3):
+   Total Interest = Interest × Number of Years
+   Total Interest = £100 × 3
+   Total Interest = £300
+
+Therefore, £300 is the total interest earned over 3 years.",False,8.999953031539917
+Qwen2.5-0.5B,Math,medium,"A pump fills a tank at 40 litres per minute. The tank holds 2400 litres. If the tank is already 25% full, how many minutes to fill it completely?",45,"To determine how long it will take to fill the tank completely, we first need to calculate the total capacity of the tank and then find out how much more water is needed compared to what the pump can provide in one minute.
+
+1. Calculate the total capacity of the tank:
+   \[
+   \text{Total capacity} = \text{Tank volume} \times \text{Volume filled per minute}
+   \]
+   Given that the tank holds 2400 liters and the pump fills it at 40 liters per minute,
+   \[
+   \text{Total capacity} = 2400 \text{ liters}
+   \]
+
+2. Determine the amount of water needed to fill the tank:
+   Since the tank is already 25% full,
+   \[
+   \text{Water needed} = \text{Total capacity} \times \text{Percentage filled}
+   \]
+   Substituting the values,
+   \[
+   \text{Water needed} = 2400 \text{ liters} \times 0.25
+   \]
+   \[
+   \text{Water needed} = 600 \text{ liters}
+   \]
+
+3. Calculate the time required to fill the tank with the given rate:
+   \[
+   \text{Time (minutes)} = \frac{\text{Water needed}}{\text{Rate}}
+   \]
+   Substituting the values,",False,22.283607482910156
+Qwen2.5-0.5B,Math,medium,A recipe needs 2.5 cups of flour for 12 muffins. How many cups of flour are needed for 30 muffins?,6.25,"To determine how many cups of flour are needed for 30 muffins, we can set up a proportion based on the information given:
+
+Given:
+- 2.5 cups of flour per 12 muffins
+
+We want to find out how much flour (x) would be needed for 30 muffins.
+
+First, let's calculate the amount of flour per muffin:
+\[ \text{Flour per muffin} = \frac{2.5 \text{ cups}}{12} \]
+
+Next, we'll use this rate to find out how much flour would be needed for 30 muffins:
+\[ x = \left(\frac{2.5}{12}\right) \times 30 \]
+
+Let's perform the calculation:
+\[ x = \left(\frac{2.5}{12}\right) \times 30 \]
+\[ x = \left(\frac{2.5 \times 30}{12}\right) \]
+\[ x = \left(\frac{75}{12}\right) \]
+\[ x = 6.25 \]
+
+So, 30 muffins would need 6.25 cups of flour. The final answer is 6.25.",True,16.92597198486328
+Qwen2.5-0.5B,Math,medium,"A team completes a project in 12 days with 5 workers. If 3 more workers join from day 4, how many total days does the project take? Assume constant daily progress per worker.",7.5,"Let's solve this problem step by step:
+
+1. **Initial Setup:**
+   - The team consists of 5 workers.
+   - They complete the project in 12 days.
+
+2. **Workers Joining:**
+   - 3 more workers join from day 4.
+   - This means there are now 8 workers (5 initial + 3 new).
+
+3. **Daily Progress:**
+   - We need to find out how long it will take for these 8 workers to complete the same amount of work.
+
+4. **Calculating Total Work Done:**
+   - Let \( T \) be the total time taken.
+   - Each worker works at a rate of 1/5 of the project per day.
+   - Therefore, each worker contributes \( \frac{1}{5} \times T \) of the project per day.
+
+5. **Total Contribution:**
+   - With 8 workers working together, they contribute \( 8 \times \frac{1}{5} \times T = \frac{8}{5}T \) of the project per day.
+
+6. **Equation Setup:**
+   - Since they finish the entire project (\( \frac{1}{5} \times T \)) in 12 days:
+     \[
+     \frac{8}{5}T = 12
+     \]
+
+7. **Solving for \( T \):**
+   - Multiply both sides by \(",False,24.50855827331543
+Qwen2.5-0.5B,Math,medium,A shopkeeper bought 50 kg of rice at £1.20 per kg and 30 kg at £1.50 per kg. He mixes them and sells at £1.45 per kg. What is his total profit in pounds?,7.5,"To calculate the profit, we first need to find out how much he spent on the rice and how much he sold.
+
+Cost of rice:
+- 50 kg at £1.20/kg = £6.00
+- 30 kg at £1.50/kg = £4.50
+
+Total cost = £6.00 + £4.50 = £10.50
+
+Profit = Total selling price - Total cost
+= £1.45 × (50 kg + 30 kg)
+= £1.45 × 80 kg
+= £116
+
+Therefore, the answer is 116 pounds.",False,10.01957392692566
+Qwen2.5-0.5B,Math,medium,A car travels the first half of a journey at 60 km/h and the second half at 40 km/h. What is the average speed for the whole journey?,48,"To find the average speed for the entire journey, we need to calculate the total distance traveled divided by the total time taken.
+
+First, let's determine the total distance:
+- The first half of the journey is 3 times the length of the second half.
+- Therefore, the total distance is \(3 \times 180\) km = 540 km.
+
+Next, let's determine the total time:
+- The first half takes 3 hours (since it's 1/2 of the journey).
+- The second half also takes 3 hours (since it's 1/2 of the journey).
+
+Now, we can calculate the average speed:
+\[ \text{Average speed} = \frac{\text{Total distance}}{\text{Total time}} \]
+\[ \text{Average speed} = \frac{540 \text{ km}}{3 \text{ hours}} \]
+\[ \text{Average speed} = 180 \text{ km/h} \]
+
+So, the average speed for the whole journey is 180 km/h.",False,14.839394092559814
+Qwen2.5-0.5B,Math,medium,"If 8 machines produce 360 units in 3 hours, how many units will 5 machines produce in 6 hours?",450,"To determine how many units 5 machines will produce in 6 hours, we first need to find out how much one machine produces in 6 hours.
+
+1. Calculate the production rate of one machine per hour:
+   \[
+   \text{Production rate of one machine} = \frac{360 \text{ units}}{3 \text{ hours}} = 120 \text{ units/hour}
+   \]
+
+2. Determine the production rate of 5 machines per hour:
+   \[
+   \text{Production rate of 5 machines} = 5 \times 120 \text{ units/hour} = 600 \text{ units/hour}
+   \]
+
+3. Calculate the production of 5 machines in 6 hours:
+   \[
+   \text{Units produced by 5 machines in 6 hours} = 600 \text{ units/hour} \times 6 \text{ hours} = 3600 \text{ units}
+   \]
+
+Therefore, 5 machines will produce **3600** units in 6 hours.",False,15.679997205734253
+Qwen2.5-0.5B,Math,medium,A store has a buy-2-get-1-free offer on £12 items. How much do you pay for 9 items?,72,"To calculate how much you would pay for 9 items with the buy-2-get-1-free offer:
+
+1. First, determine how many sets of 3 items can be bought:
+   \( \frac{12}{3} = 4 \) sets
+
+2. Since each set includes one item and two free items, we need to subtract these from the total:
+   \( 4 - 2 = 2 \) sets of items that are not included in the cost calculation.
+
+3. Calculate the cost of 2 sets:
+   \( 2 \times 3 = 6 \)
+
+4. Subtract this amount from the original price:
+   \( 12 - 6 = 6 \)
+
+Therefore, you would pay **£6** for 9 items under the buy-2-get-1-free offer.",False,10.365613222122192
+Qwen2.5-0.5B,Math,medium,The sum of three consecutive even numbers is 78. What is the largest of the three?,28,"Let's denote the smallest of the three consecutive even numbers by \( x \). Since they are consecutive, the next one will be \( x + 2 \) and the third one will be \( x + 4 \).
+
+According to the problem, the sum of these three numbers is 78:
+\[ x + (x + 2) + (x + 4) = 78 \]
+
+Now let's solve for \( x \):
+\[ 3x + 6 = 78 \]
+\[ 3x = 78 - 6 \]
+\[ 3x = 72 \]
+\[ x = 24 \]
+
+So the smallest number is 24.
+
+The largest number among the three is \( x + 4 \), which is:
+\[ 24 + 4 = 28 \]
+
+Therefore, the largest of the three consecutive even numbers is 28.",True,12.2986159324646
+Qwen2.5-0.5B,Math,hard,A 40-litre mixture of milk and water is in the ratio 3:1. How many litres of water must be added to make the ratio 3:2?,10,"Let's start by understanding the initial amount of milk and water in the mixture:
+- The total volume of the mixture is 40 litres.
+- The ratio of milk to water is 3:1.
+
+This means that for every 4 parts (3 + 1), there are 3 parts of milk and 1 part of water.
+
+Now, let's calculate how much milk we have initially:
+\[ \text{Milk} = \frac{3}{4} \times 40 \]
+\[ \text{Milk} = 3 \times 10 \]
+\[ \text{Milk} = 30 \text{ litres} \]
+
+Next, let's find out how much water we need to add to make the new ratio 3:2:
+
+We know that:
+\[ \text{Total Volume} = \text{Initial Milk} + \text{Water Added} \]
+
+So,
+\[ 40 = 30 + x \]
+where \( x \) represents the amount of water added.
+
+Solving for \( x \):
+\[ x = 40 - 30 \]
+\[ x = 10 \text{ litres} \]
+
+Therefore, 10 litres of water must be added to the mixture to achieve the desired ratio of 3:2.",False,18.076541900634766
+Qwen2.5-0.5B,Math,hard,"Two pipes A and B can fill a tank in 12 and 18 hours respectively. Pipe C can drain it in 9 hours. If all three are open, how many hours to fill the tank?",36,"To solve this problem, we need to determine the combined rate of pipe A and B filling the tank and then find out how long it will take for both pipes to fill the tank together.
+
+First, let's calculate the rates:
+- Pipe A fills the tank at a rate of \( \frac{1}{12} \) tank per hour.
+- Pipe B fills the tank at a rate of \( \frac{1}{18} \) tank per hour.
+- Pipe C drains the tank at a rate of \( \frac{1}{9} \) tank per hour.
+
+Next, we add these rates to get the combined rate when all three are open:
+
+\[
+\text{Combined rate} = \frac{1}{12} + \frac{1}{18} - \frac{1}{9}
+\]
+
+Let's simplify each term separately:
+
+For Pipe A:
+\[
+\frac{1}{12} = \frac{3}{36} = \frac{1}{12}
+\]
+\[
+\frac{1}{12} - \frac{1}{9} = \frac{3}{36} - \frac{4}{36} = -\frac{1}{36}
+\]
+
+Since the negative sign indicates that Pipe A is actually draining the tank, we should consider the absolute value:
+
+\[
+|-\frac{1}{36}| = \frac{1}{",False,19.197103023529053
+Qwen2.5-0.5B,Math,hard,A sum of money doubles itself in 8 years at compound interest. In how many years will it become 4 times the original amount?,16,"Let's denote the original amount of money as \( P \).
+
+After 8 years, the amount becomes:
+\[ P + P = 2P \]
+
+So, after 8 years, the total amount is:
+\[ 2P \]
+
+We want to find out when this amount will be 4 times the original amount, which means we need to solve for \( t \) such that:
+\[ 2P \times (1 + \frac{t}{8}) = 4P \]
+
+Dividing both sides by \( 2P \):
+\[ 1 + \frac{t}{8} = 2 \]
+
+Subtracting 1 from both sides:
+\[ \frac{t}{8} = 1 \]
+
+Multiplying both sides by 8:
+\[ t = 8 \]
+
+Therefore, it takes 8 years for the amount to become 4 times the original amount.
+
+Final answer: 8 years.",False,12.557120084762573
+Qwen2.5-0.5B,Math,hard,A boat travels 30 km upstream and 30 km downstream. Its speed in still water is 10 km/h and the stream speed is 2 km/h. What is the total journey time in hours?,6.25,"To find the total journey time, we need to calculate the time taken for each part of the trip separately and then add them together.
+
+First, let's calculate the time taken to travel upstream (against the current):
+Time = Distance / Speed
+Time_upstream = 30 km / (10 km/h - 2 km/h) = 30 km / 8 km/h = 375 minutes
+
+Next, let's calculate the time taken to travel downstream (with the current):
+Time_downstream = Distance / Speed
+Time_downstream = 30 km / (10 km/h + 2 km/h) = 30 km / 12 km/h = 25 minutes
+
+Finally, we add the two times together:
+Total time = Time_upstream + Time_downstream
+Total time = 375 minutes + 25 minutes = 390 minutes
+
+Since there are 60 minutes in an hour,
+we convert the total time into hours:
+Total time in hours = 390 minutes / 60 minutes per hour = 6.5 hours
+
+Therefore, the total journey time is 6.5 hours.",False,16.419573068618774
+Qwen2.5-0.5B,Math,hard,"In a class of 50 students, 60% passed Maths and 70% passed English. At least how many students passed both?",15,"To find out at least how many students passed both subjects, we can use the principle of inclusion-exclusion.
+
+Let's denote:
+- \( M \) for the set of students who passed Math,
+- \( E \) for the set of students who passed English.
+
+Given:
+- The total number of students in the class (\( |M| + |E| = 50 \)).
+- The percentage of students passing each subject:
+  - \( P(M) = 60\% \)
+  - \( P(E) = 70\% \)
+
+We need to find the minimum value of \( |M \cap E| \).
+
+Using the formula for the maximum size of the intersection:
+
+\[ |M \cap E| \geq \frac{|M| + |E|}{2} \]
+
+Substitute the values:
+\[ |M \cap E| \geq \frac{50}{2} \]
+\[ |M \cap E| \geq 25 \]
+
+Therefore, at least 25 students must have passed both subjects.",False,14.391674518585205
+Qwen2.5-0.5B,Math,hard,A sphere has a volume of 288π cubic cm. What is its radius in cm?,6,"To find the radius of a sphere given its volume, we use the formula for the volume of a sphere:
+
+\[ V = \frac{4}{3} \pi r^3 \]
+
+where \( V \) is the volume and \( r \) is the radius.
+
+Given:
+\[ V = 288\pi \text{ cubic cm} \]
+
+We need to solve for \( r \).
+
+First, isolate \( r^3 \):
+
+\[ r^3 = \frac{3V}{4\pi} \]
+
+Substitute \( V = 288\pi \):
+
+\[ r^3 = \frac{3(288\pi)}{4\pi} \]
+
+Simplify inside the parentheses:
+
+\[ r^3 = \frac{3 \times 288\pi}{4\pi} \]
+
+\[ r^3 = \frac{864\pi}{4\pi} \]
+
+\[ r^3 = 216 \]
+
+Now take the cube root of both sides to solve for \( r \):
+
+\[ r = \sqrt[3]{216} \]
+
+\[ r = 6 \]
+
+So, the radius of the sphere is 6 cm.",True,16.083216190338135
+Qwen2.5-0.5B,Math,hard,"If the cost price of an article is 80% of the selling price, what is the profit percentage?",25,"Let's denote:
+- Cost Price (CP) = $100
+- Selling Price (SP) = $160
+
+We need to find the profit percentage.
+
+First, let's calculate the profit amount:
+Profit = SP - CP
+   = $160 - $100
+   = $60
+
+Next, we'll use the formula for profit percentage:
+\[ \text{Profit Percentage} = \left( \frac{\text{Profit}}{\text{Cost Price}} \right) \times 100\% \]
+
+Plugging in our values:
+\[ \text{Profit Percentage} = \left( \frac{60}{100} \right) \times 100\% \]
+\[ \text{Profit Percentage} = 0.6 \times 100\% \]
+\[ \text{Profit Percentage} = 60\% \]
+
+So, the profit percentage is **60%**.",False,13.095480680465698
+Qwen2.5-0.5B,Math,hard,A train 150m long passes a platform 250m long in 20 seconds. What is the speed of the train in km/h?,72,"To find the speed of the train, we first need to determine the total distance covered by the train while passing the platform and then divide that by the time it took.
+
+Step 1: Calculate the total distance covered.
+The train travels from the start until it reaches the end of the platform. This can be done using the Pythagorean theorem:
+
+\[ \text{Distance} = \sqrt{(length_{train}}^2 + (length_{platform})^2} \]
+
+\[ \text{Distance} = \sqrt{(150)^2 + (250)^2} \]
+
+\[ \text{Distance} = \sqrt{22500 + 62500} \]
+
+\[ \text{Distance} = \sqrt{85000} \]
+
+\[ \text{Distance} = 291.23 meters \]
+
+Step 2: Convert the distance into kilometers:
+\[ \text{Distance}_{km} = \frac{\text{Distance}_{meters}}{1000000} \]
+
+\[ \text{Distance}_{km} = \frac{291.23}{1000000} \]
+
+\[ \text{Distance}_{km} = 0.0029123 \]
+
+Step 3: Calculate the speed:
+\[ \text{Speed} = \frac{\text{Distance}_{km}}{\text{Time",False,19.401825666427612
+Qwen2.5-0.5B,Math,hard,In how many ways can the letters of the word ASSESSMENT be arranged?,75600,"To determine the number of ways to arrange the letters in the word ""ASSESSMENT,"" we need to calculate the factorial of 5 (since there are 5 distinct letters).
+
+\[ 5! = 5 \times 4 \times 3 \times 2 \times 1 \]
+
+Calculating this:
+
+\[ 5! = 5 \times 4 = 20 \times 3 = 60 \times 2 = 120 \]
+
+Therefore, there are **120** different arrangements of the letters in ""ASSESSMENT"".",False,7.7246904373168945
+Qwen2.5-0.5B,Math,hard,A and B together earn £540 per day. B earns 20% more than A. What is B's daily earning?,295.45,"Let's denote A's daily earning by \( x \) and B's daily earning by \( y \).
+
+We know that:
+1. The total earnings of A and B per day = £540.
+2. B earns 20% more than A.
+
+From this information, we can set up two equations:
+
+\[
+x + y = 540
+\]
+
+And since B earns 20% more than A, we have:
+
+\[
+y = x + 0.20x
+\]
+
+Simplifying the second equation:
+
+\[
+y = 1.20x
+\]
+
+Now we substitute \( y \) from the second equation into the first equation:
+
+\[
+x + 1.20x = 540
+\]
+
+Combine like terms:
+
+\[
+2.20x = 540
+\]
+
+Divide both sides by 2.20 to solve for \( x \):
+
+\[
+x = \frac{540}{2.20}
+\]
+
+Calculate the value:
+
+\[
+x = 259.09
+\]
+
+So, A's daily earning is £259.09. Now, let's find B's daily earning using the relationship between their earnings:
+
+\[
+y = 1.20x
+\]
+
+Substitute \( x = 259.09 \):
+
+\[
+y = 1.",False,18.981173276901245
+Qwen2.5-0.5B,Instruction,word_count,Explain what machine learning is in exactly 50 words. Do not go over or under.,50,"Machine learning is a subset of artificial intelligence (AI) that involves training algorithms to learn from data, making predictions or decisions based on patterns and rules learned during the process. It enables systems to improve their performance through experience and feedback, without explicit programming. Machine learning techniques include supervised, unsupervised, and semi-supervised learning, enabling various applications such as image recognition, natural language processing, and recommendation systems. The goal is to create intelligent machines capable of adapting to new situations and improving their accuracy over time.",False,6.8272340297698975
+Qwen2.5-0.5B,Instruction,bullet_list,List exactly 5 benefits of renewable energy. Format as a numbered list with exactly 5 items.,5,"1. Reduces greenhouse gas emissions, which helps combat climate change.
+2. Generates electricity without emitting harmful pollutants like sulfur dioxide and nitrogen oxides.
+3. Enables the use of solar panels or wind turbines for generating power.
+4. Supports sustainable development by reducing dependence on fossil fuels.
+5. Creates jobs in manufacturing, installation, and maintenance of renewable energy systems.",True,4.48032808303833
+Qwen2.5-0.5B,Instruction,no_word,"Describe the process of photosynthesis without using the word ""light"". Your answer must not contain the word ""light"" anywhere.",light,"To produce food from sunlight, plants use carbon dioxide and water to synthesize glucose through the following steps:
+
+1. **Light Absorption**: The plant's leaves absorb light energy through pigments like chlorophyll.
+
+2. **Light Conversion**: Light energy is converted into chemical energy in the form of ATP (adenosine triphosphate) and NADPH (nicotinamide adenine dinucleotide phosphate).
+
+3. **Water Transport**: Water molecules move from the soil to the leaves through a process called osmosis.
+
+4. **Carbon Dioxide Fixation**: Carbon dioxide molecules are absorbed by the stomata on the leaves.
+
+5. **Glucose Synthesis**: Glucose molecules are synthesized in the presence of oxygen.
+
+6. **Glucose Utilization**: Glucose molecules are used for energy production and growth.
+
+7. **Energy Transfer**: Energy from sunlight is transferred to other forms of energy, such as ATP and NADPH.
+
+8. **Food Production**: Food molecules are produced from the energy transfer.
+
+This process allows plants to convert sunlight, water, and carbon dioxide into glucose and oxygen, which can be used by the plant itself or released back into the environment as waste.",False,15.252174854278564
+Qwen2.5-0.5B,Instruction,start_word,"Write a one-sentence summary of the French Revolution. Your sentence must start with the word ""The"".",The,"The revolution, which began in 1789, was a period of political upheaval across France, marked by widespread violence, social unrest, and the rise of new political factions led by Napoleon Bonaparte.",True,2.9555680751800537
+Qwen2.5-0.5B,Instruction,json_output,"Output a JSON object with exactly three keys: ""name"" (string), ""age"" (integer), and ""city"" (string). Use fictional values. Output ONLY valid JSON, no other text.",,"{
+  ""name"": ""John Doe"",
+  ""age"": 30,
+  ""city"": ""New York""
+}",True,2.1459765434265137
+Qwen2.5-0.5B,Instruction,uppercase,"Write the word BANANA in reverse, then explain what palindromes are in one sentence.",ANANAB,"The word ""BANANA"" can be reversed to become ""ANABANA,"" which is a palindrome because it reads the same forwards and backwards. Palindromes are words or phrases that read the same backward as forward, such as ""banana.""",False,3.144254446029663
+Qwen2.5-0.5B,Instruction,three_sections,"Explain gradient descent with exactly three sections titled: ""What it is"", ""How it works"", and ""Where it is used"". Use these exact section titles.","['What it is', 'How it works', 'Where it is used']","""Gradient Descent is an algorithm for finding the minimum value of a function, which can be either linear or nonlinear, by iteratively updating parameters based on the negative gradient of the cost function.""
+
+""What it does is to move in the direction opposite to the gradient of the cost function towards its minimum point."" 
+
+""How it works involves calculating the partial derivatives of the cost function with respect to each parameter, then taking the negative of these gradients to get the net change in the parameters,""
+
+""Where it is used is in optimization problems where we want to minimize some objective function, such as minimizing the cost of a model's predictions, maximizing profit from selling products, etc., by adjusting the values of the model's parameters.""",False,9.364474773406982
+Qwen2.5-0.5B,Instruction,end_phrase,"Explain what an API is in 2-3 sentences. End your response with the exact phrase: ""This is the foundation of modern software.""",This is the foundation of modern software.,"An API stands for Application Programming Interface, which refers to a set of protocols or rules by which different applications can communicate with each other. In the context of web development, APIs allow developers to build applications on top of existing services, such as RESTful APIs, which provide a standardized way of sending data between servers.
+
+This is the foundation of modern software because it enables developers to create reusable code, enabling faster development cycles and reducing the need for manual coding. By providing a common interface for interacting with various systems, APIs help ensure consistency across different platforms and environments, leading to more robust and reliable software solutions.",False,7.342831134796143
+Qwen2.5-0.5B,Instruction,no_numbers,Describe the water cycle without using any digits (0-9). Write in full words for any quantities.,,"Evaporation, condensation, precipitation, transpiration, evaporation, condensation, precipitation, transpiration, condensation, precipitation, transpiration, condensation, precipitation, transpiration, condensation, precipitation, transpiration, condensation, precipitation, transpiration, condensation, precipitation, transpiration, condensation, precipitation, transpiration, condensation, precipitation, transpiration, condensation, precipitation, transpiration, condensation, precipitation, transpiration, condensation, precipitation, transpiration, condensation, precipitation, transpiration, condensation, precipitation, transpiration, condensation, precipitation, transpiration, condensation, precipitation, transpiration, condensation, precipitation, transpiration, condensation, precipitation, transpiration, condensation, precipitation, transpiration, condensation, precipitation, transpiration, condensation, precipitation, transpiration, condensation, precipitation, transpiration, condensation, precipitation, transpiration, condensation, precipitation, transpiration, condensation, precipitation, transpiration, condensation, precipitation, transpiration, condensation, precipitation, transpiration, condensation, precipitation, transpiration, condensation, precipitation, transpiration, condensation, precipitation, transpiration, condensation, precipitation, transpiration, condensation, precipitation, transpiration, condensation, precipitation, transpiration, condensation, precipitation, transpiration, condensation, precipitation, transpiration, condensation, precipitation, transpiration, condensation, precipitation, transpiration, condensation, precipitation, transpiration, condensation, precipitation, transpiration, condensation, precipitation, transpiration, condensation, precipitation, transpiration, condensation, precipitation, transpiration, condensation, precipitation, transpiration, condensation, precipitation, transpiration, condensation, precipitation, transpiration, condensation, precipitation, transpiration, condensation, precipitation, transpiration, condensation, precipitation, transpiration, condensation, precipitation, transpiration, condensation",True,25.268826484680176
+Qwen2.5-0.5B,Instruction,two_languages,"Translate the sentence ""Hello, how are you?"" into French and Spanish. Format your answer as:
+French: [translation]
+Spanish: [translation]","['French:', 'Spanish:']","French: Bonjour, comment vous allez-vous?
+Spanish: Hola, ¿Cómo está usted?",True,1.451219081878662
+Qwen2.5-0.5B,STEM,ML,"Which optimisation algorithm uses both momentum and adaptive learning rates?
+A) SGD  B) Adam  C) RMSprop  D) Adagrad",B,D) Adagrad,False,0.5278820991516113
+Qwen2.5-0.5B,STEM,ML,"What does the ""kernel trick"" allow in Support Vector Machines?
+A) Faster training  B) Working in high-dimensional feature spaces without explicit computation  C) Reducing overfitting  D) Increasing sparsity",B,D) Increasing sparsity,False,0.5000088214874268
+Qwen2.5-0.5B,STEM,ML,"In a neural network, what does dropout regularisation do?
+A) Removes neurons permanently  B) Sets weights to zero  C) Randomly deactivates neurons during training  D) Adds Gaussian noise to inputs",C,C) Randomly deactivates neurons during training,True,0.9879591464996338
+Qwen2.5-0.5B,STEM,ML,"What is the vanishing gradient problem primarily associated with?
+A) Wide networks  B) Deep networks with sigmoid/tanh activations  C) Convolutional layers  D) Batch normalisation",B,D) Batch normalisation,False,0.39495229721069336
+Qwen2.5-0.5B,STEM,ML,"Which metric is most appropriate for evaluating a model on a highly imbalanced classification task?
+A) Accuracy  B) F1-score  C) MSE  D) R-squared",B,D) R-squared,False,0.396695613861084
+Qwen2.5-0.5B,STEM,ML,"In the attention mechanism of Transformers, what are Q, K, V?
+A) Quantities, Kernels, Vectors  B) Queries, Keys, Values  C) Quotients, Knowledge, Variables  D) None of the above",B,B),True,0.20795702934265137
+Qwen2.5-0.5B,STEM,ML,"What does a ROC curve plot?
+A) Precision vs Recall  B) Loss vs Epochs  C) True Positive Rate vs False Positive Rate  D) Accuracy vs Threshold",C,D) Accuracy vs Threshold,False,0.39135026931762695
+Qwen2.5-0.5B,STEM,ML,"Which of the following is NOT a hyperparameter?
+A) Learning rate  B) Number of layers  C) Learned weights  D) Batch size",C,D) Batch size,False,0.33949828147888184
+Qwen2.5-0.5B,STEM,Math,"What is the derivative of f(x) = x³ + 2x² - 5x + 1?
+A) 3x² + 4x - 5  B) 3x² + 2x - 5  C) x² + 4x - 5  D) 3x² + 4x + 1",A,"D) 3x² + 4x + 1
+
+Justification:
+The derivative of a function f(x) with respect to x is given by:
+
+f'(x) = lim(h→0) [f(x+h) - f(x)] / h
+
+For f(x) = x³ + 2x² - 5x + 1, we have:
+
+f'(x) = lim(h→0) [(x+h)³ + 2(x+h)^2 - 5(x+h) + 1] / h
+
+Expanding this expression:
+
+= lim(h→0) [(x^3 + 3x^2h + 3hx^2 + h^3) + (2x",False,9.664530754089355
+Qwen2.5-0.5B,STEM,Math,"If P(A) = 0.4 and P(B) = 0.3 and A, B are independent, what is P(A ∩ B)?
+A) 0.7  B) 0.1  C) 0.12  D) 0.58",C,"D) 0.58
+
+Justification:
+Since A and B are independent, we can use the formula for the intersection of two events:
+
+P(A ∩ B) = P(A) × P(B)
+
+Given:
+P(A) = 0.4
+P(B) = 0.3
+
+Substitute these values into the formula:
+
+P(A ∩ B) = 0.4 × 0.3
+= 0.12
+
+Therefore, P(A ∩ B) = 0.12 corresponds to option D.",False,7.472020149230957
+Qwen2.5-0.5B,STEM,Math,"What is the eigenvalue of a 2×2 identity matrix?
+A) 0  B) 2  C) 1  D) Undefined",C,D),False,0.2284073829650879
+Qwen2.5-0.5B,STEM,Math,"In a standard normal distribution, what percentage of values fall within 2 standard deviations of the mean?
+A) 68%  B) 90%  C) 95%  D) 99.7%",C,D) 99.7%,False,0.6152472496032715
+Qwen2.5-0.5B,STEM,CS,"What is the Big-O complexity of binary search?
+A) O(n)  B) O(log n)  C) O(n log n)  D) O(1)",B,D) O(1),False,0.4911079406738281
+Qwen2.5-0.5B,STEM,Physics,"What is the unit of electrical resistance?
+A) Volt  B) Ampere  C) Ohm  D) Watt",C,C) Ohm,True,0.35378193855285645
+Qwen2.5-0.5B,STEM,Physics,"Which law states that the current through a conductor is proportional to the voltage across it?
+A) Faraday's Law  B) Ohm's Law  C) Kirchhoff's Voltage Law  D) Ampere's Law",B,B) Ohm's Law,True,0.4554765224456787
+Qwen2.5-0.5B,STEM,Physics,"What type of modulation is used in Bluetooth audio transmission?
+A) AM  B) FM  C) GFSK  D) PCM",C,D) PCM,False,0.2885410785675049
+Qwen2.5-0.5B,STEM,Physics,"In digital signal processing, what does the Nyquist theorem specify?
+A) Maximum signal amplitude  B) Minimum sampling rate to reconstruct a signal  C) Compression ratio  D) Filter bandwidth",B,D) Filter bandwidth,False,0.342374324798584
+Qwen2.5-0.5B,STEM,CS,"What data structure does BFS (Breadth-First Search) use internally?
+A) Stack  B) Heap  C) Queue  D) Tree",C,C) Queue,True,0.2738618850708008
+Qwen2.5-0.5B,STEM,CS,"Which sorting algorithm has O(n log n) worst-case complexity?
+A) Bubble Sort  B) Quick Sort  C) Merge Sort  D) Insertion Sort",C,D) Insertion Sort - It has O(n^2) average case complexity but can degrade to O(n log n) worst case due to its internal loop structure.,False,2.7813987731933594
+Qwen2.5-0.5B,STEM,CS,"What does CPU cache L1/L2/L3 hierarchy represent?
+A) Storage capacity only  B) Speed and proximity to CPU core  C) Power consumption  D) Instruction set size",B,B) Speed and proximity to CPU core,True,0.5750381946563721
+Phi-3.5-mini,Math,easy,"A bakery makes 240 cookies per day. If they sell 75% of them, how many cookies are left unsold?",60,"First, we need to find out how many cookies were sold. To do this, we calculate 75% of 240:
+
+Cookies sold = 75% of 240
+                      = 0.75 * 240
+                      = 180
+
+Now, to find out how many cookies are left unsold, we subtract the number of cookies sold from the total number of cookies made:
+
+Cookies unsold = Total cookies - Cookies sold
+                      = 240 - 180
+                      = 60
+
+So, there are 60 unsold cookies.
+
+The answer is 60.",True,10.112510919570923
+Phi-3.5-mini,Math,easy,A train travels at 80 km/h. How far does it travel in 3.5 hours?,280,"To find the distance traveled, we can use the formula:
+
+Distance = Speed × Time
+
+Given:
+Speed = 80 km/h
+Time = 3.5 hours
+
+Distance = 80 km/h × 3.5 hours
+
+Distance = 280 km
+
+The train travels 280 kilometers in 3.5 hours.
+
+The answer is 280.",True,6.480370044708252
+Phi-3.5-mini,Math,easy,A rectangle has length 15 cm and width 8 cm. What is its area in square cm?,120,"To find the area of a rectangle, we use the formula:
+
+Area = length × width
+
+In this case, the length is 15 cm and the width is 8 cm. So, we can calculate the area as follows:
+
+Area = 15 cm × 8 cm = 120 square cm
+
+The answer is 120 square cm.",True,4.844674348831177
+Phi-3.5-mini,Math,easy,"If a shirt costs £45 and is discounted by 20%, what is the sale price in pounds?",36,"To find the sale price, we first need to calculate the discount amount. 
+
+Discount = Original price * Discount rate
+         = £45 * 20%
+         = £45 * 0.20
+         = £9
+
+Now, subtract the discount from the original price to find the sale price:
+
+Sale price = Original price - Discount
+           = £45 - £9
+           = £36
+
+The answer is 36.",True,6.8491950035095215
+Phi-3.5-mini,Math,easy,A factory produces 1200 units per hour. How many units does it produce in an 8-hour shift?,9600,"To find out how many units the factory produces in an 8-hour shift, we need to multiply the production rate per hour by the number of hours in the shift.
+
+Units produced in 8 hours = Production rate per hour * Number of hours
+                                      = 1200 units/hour * 8 hours
+                                      = 9600 units
+
+So, the factory produces 9600 units in an 8-hour shift.
+
+The answer is 9600.",True,6.415925979614258
+Phi-3.5-mini,Math,easy,"A store buys apples at £0.30 each and sells them at £0.50 each. If they sell 200 apples, what is the profit in pounds?",40,"To calculate the profit, we first need to find the total cost and the total revenue.
+
+Total cost = Cost per apple * Number of apples
+Total cost = £0.30 * 200 = £60
+
+Total revenue = Revenue per apple * Number of apples
+Total revenue = £0.50 * 200 = £100
+
+Now, we can find the profit by subtracting the total cost from the total revenue.
+
+Profit = Total revenue - Total cost
+Profit = £100 - £60 = £40
+
+The answer is 40.",True,8.922668933868408
+Phi-3.5-mini,Math,easy,A car uses 6 litres of fuel per 100 km. How many litres does it need for a 450 km journey?,27,"To find out how many litres of fuel the car needs for a 450 km journey, we can set up a proportion based on the given rate of fuel consumption.
+
+We know that the car uses 6 litres for every 100 km. So, we can write this as a ratio:
+
+6 litres / 100 km
+
+Now, we want to find out how many litres (let's call it x) the car needs for 450 km. We can set up the proportion like this:
+
+6 litres / 100 km = x litres / 450 km
+
+To solve for x, we can cross-multiply and divide:
+
+(6 litres * 450 km) / 100 km = x
+
+x = 27 litres
+
+So, the car needs 27 litres of fuel for a 450 km journey. The answer is 27.",True,13.120362043380737
+Phi-3.5-mini,Math,easy,A worker earns £15 per hour and works 38 hours per week. What is their weekly wage?,570,"To calculate the worker's weekly wage, we need to multiply their hourly wage by the number of hours they work per week.
+
+Hourly wage = £15
+Hours worked per week = 38
+
+Weekly wage = Hourly wage × Hours worked per week
+Weekly wage = £15 × 38
+Weekly wage = £570
+
+The worker's weekly wage is £570.
+
+The answer is 570.",True,7.050809860229492
+Phi-3.5-mini,Math,easy,"There are 52 cards in a deck. If 13 are hearts, what percentage are hearts?",25,"To find the percentage of hearts in the deck, we can use the following formula:
+
+Percentage = (Number of hearts / Total number of cards) * 100
+
+In this case, the number of hearts is 13 and the total number of cards is 52. Plugging these values into the formula, we get:
+
+Percentage = (13 / 52) * 100
+
+Now, we can simplify the fraction:
+
+Percentage = (1/4) * 100
+
+Finally, we can multiply:
+
+Percentage = 25
+
+The answer is 25%. 25% of the cards in the deck are hearts.",True,9.36949610710144
+Phi-3.5-mini,Math,easy,A container holds 5 litres. How many 250 ml glasses can be filled from it?,20,"First, we need to convert the volume of the container to the same unit as the glasses, which is milliliters (ml). 
+
+1 liter (L) is equal to 1000 milliliters (ml). 
+
+So, 5 liters is equal to 5 * 1000 = 5000 milliliters.
+
+Now, we can divide the total volume of the container by the volume of one glass to find out how many glasses can be filled:
+
+5000 ml / 250 ml/glass = 20 glasses
+
+So, 20 glasses of 250 ml each can be filled from a 5-liter container.
+
+The answer is 20.",True,10.547154188156128
+Phi-3.5-mini,Math,medium,Alice has 3 times as many marbles as Bob. Bob has 12 more than Carol. Carol has 8 marbles. How many does Alice have?,60,"First, let's find out how many marbles Bob has. Since Bob has 12 more marbles than Carol, and Carol has 8 marbles, we can calculate Bob's marbles as follows:
+
+Bob's marbles = Carol's marbles + 12
+Bob's marbles = 8 + 12
+Bob's marbles = 20
+
+Now that we know Bob has 20 marbles, we can find out how many marbles Alice has. Alice has 3 times as many marbles as Bob, so:
+
+Alice's marbles = 3 × Bob's marbles
+Alice's marbles = 3 × 20
+Alice's marbles = 60
+
+The answer is 60.",True,10.7246413230896
+Phi-3.5-mini,Math,medium,"A bank account earns 5% simple interest per year. If £2000 is deposited, how much interest is earned over 3 years?",300,"To calculate the simple interest earned over 3 years, we can use the formula:
+
+Interest = Principal × Rate × Time
+
+In this case, the principal is £2000, the rate is 5% (or 0.05 as a decimal), and the time is 3 years.
+
+Interest = £2000 × 0.05 × 3
+
+Interest = £300
+
+The interest earned over 3 years is £300.
+
+The answer is 300.",True,7.750367879867554
+Phi-3.5-mini,Math,medium,"A pump fills a tank at 40 litres per minute. The tank holds 2400 litres. If the tank is already 25% full, how many minutes to fill it completely?",45,"First, we need to determine how much more water is needed to fill the tank completely. Since the tank is already 25% full, it contains 25% of 2400 litres.
+
+25% of 2400 litres = 0.25 * 2400 = 600 litres
+
+This means there are 600 litres of space left to fill in the tank.
+
+The pump fills the tank at a rate of 40 litres per minute. To find out how many minutes it will take to fill the remaining 600 litres, we divide the volume needed by the rate of the pump:
+
+600 litres / 40 litres per minute = 15 minutes
+
+So, it will take 15 minutes to fill the tank completely from its current state.
+
+The answer is 15.",False,12.619076251983643
+Phi-3.5-mini,Math,medium,A recipe needs 2.5 cups of flour for 12 muffins. How many cups of flour are needed for 30 muffins?,6.25,"To find out how many cups of flour are needed for 30 muffins, we can set up a proportion based on the given information:
+
+2.5 cups of flour / 12 muffins = x cups of flour / 30 muffins
+
+Now, we can solve for x:
+
+(2.5 cups of flour) * (30 muffins) = (12 muffins) * (x cups of flour)
+
+75 = 12x
+
+Now, divide both sides by 12 to solve for x:
+
+x = 75 / 12
+x = 6.25
+
+The answer is 6.25 cups of flour are needed for 30 muffins.",False,10.715792655944824
+Phi-3.5-mini,Math,medium,"A team completes a project in 12 days with 5 workers. If 3 more workers join from day 4, how many total days does the project take? Assume constant daily progress per worker.",7.5,"Let's break this down step by step:
+
+1. Initially, there are 5 workers working for 12 days to complete the project.
+2. This means that the total amount of work done can be represented as 5 workers * 12 days = 60 worker-days.
+3. From day 4, 3 more workers join, making a total of 8 workers.
+4. However, these additional workers only start working from day 4, so for the first 3 days, only the original 5 workers are working.
+5. In these first 3 days, the amount of work done is 5 workers * 3 days = 15 worker-days.
+6. Subtracting this from the total work, we have 60 worker-days - 15 worker-days = 45 worker-days left to be done.
+7. Now, with 8 workers working, we can calculate how many more days they need to complete the remaining work: 45 worker-days / 8 workers = 5.625 days.
+8. Since we can't have a fraction of a day, we round up to the nearest whole number, which is 6 days.
+
+So, the total number of days to complete the project is 3 days (initially) + 6 days (with additional workers) = 9 days",False,18.147576570510864
+Phi-3.5-mini,Math,medium,A shopkeeper bought 50 kg of rice at £1.20 per kg and 30 kg at £1.50 per kg. He mixes them and sells at £1.45 per kg. What is his total profit in pounds?,7.5,"First, let's calculate the total cost of the rice the shopkeeper bought:
+
+For the 50 kg of rice at £1.20 per kg:
+Cost = 50 kg * £1.20/kg = £60
+
+For the 30 kg of rice at £1.50 per kg:
+Cost = 30 kg * £1.50/kg = £45
+
+Total cost of rice = £60 + £45 = £105
+
+Now, let's calculate the total weight of the mixed rice:
+Total weight = 50 kg + 30 kg = 80 kg
+
+The shopkeeper sells the mixed rice at £1.45 per kg, so the total selling price for 80 kg will be:
+Selling price = 80 kg * £1.45/kg = £116
+
+Now, let's calculate the profit:
+Profit = Selling price - Total cost
+Profit = £116 - £105 = £11
+
+The shopkeeper's total profit is £11.
+
+The answer is 11.",False,15.699293613433838
+Phi-3.5-mini,Math,medium,A car travels the first half of a journey at 60 km/h and the second half at 40 km/h. What is the average speed for the whole journey?,48,"To find the average speed for the whole journey, we need to consider the total distance and the total time taken. Let's assume the total distance of the journey is D km.
+
+Since the car travels the first half of the journey at 60 km/h, it covers D/2 distance in (D/2) / 60 hours.
+Similarly, for the second half of the journey at 40 km/h, it covers D/2 distance in (D/2) / 40 hours.
+
+Now, let's calculate the total time taken for the whole journey:
+
+Total time = Time for first half + Time for second half
+= ((D/2) / 60) + ((D/2) / 40)
+= (D/120) + (D/80)
+= (2D + 3D) / 240
+= 5D / 240
+= D / 48 hours
+
+Now, we can find the average speed using the formula:
+
+Average speed = Total distance / Total time
+= D / (D / 48)
+= 48 km/h
+
+So, the average speed for the whole journey is 48 km/h.
+
+The answer is 48.",True,17.891214609146118
+Phi-3.5-mini,Math,medium,"If 8 machines produce 360 units in 3 hours, how many units will 5 machines produce in 6 hours?",450,"First, let's find out how many units one machine can produce in one hour. 
+
+8 machines produce 360 units in 3 hours, so one machine produces 360/8 = 45 units in 3 hours.
+
+Therefore, one machine produces 45/3 = 15 units in one hour.
+
+Now, we want to find out how many units 5 machines will produce in 6 hours.
+
+Since one machine produces 15 units in one hour, 5 machines will produce 5 * 15 = 75 units in one hour.
+
+Finally, in 6 hours, 5 machines will produce 75 * 6 = 450 units.
+
+The answer is 450.",True,10.003588914871216
+Phi-3.5-mini,Math,medium,A store has a buy-2-get-1-free offer on £12 items. How much do you pay for 9 items?,72,"Let's break down the problem step by step:
+
+1. For every 3 items (2 paid + 1 free), you only pay for 2 items.
+2. Since each item costs £12, the cost for 2 items is £12 * 2 = £24.
+3. Now, we need to find out how many sets of 3 items we can get from 9 items. We do this by dividing 9 by 3, which gives us 3 sets.
+4. Finally, we multiply the cost of one set (£24) by the number of sets (3) to find the total cost: £24 * 3 = £72.
+
+The answer is £72.",True,9.471149682998657
+Phi-3.5-mini,Math,medium,The sum of three consecutive even numbers is 78. What is the largest of the three?,28,"Let's denote the smallest of the three consecutive even numbers as \( n \). Since the numbers are consecutive even numbers, the next two can be represented as \( n + 2 \) and \( n + 4 \) respectively.
+
+According to the problem, the sum of these three numbers is 78:
+
+\[ n + (n + 2) + (n + 4) = 78 \]
+
+Combine like terms:
+
+\[ 3n + 6 = 78 \]
+
+Subtract 6 from both sides:
+
+\[ 3n = 72 \]
+
+Divide both sides by 3:
+
+\[ n = 24 \]
+
+Now we have the smallest number, which is 24. The largest number, which is two more than the smallest, would be:
+
+\[ n + 4 = 24 + 4 = 28 \]
+
+The largest of the three consecutive even numbers is 28.
+
+The answer is 28.",True,13.499093532562256
+Phi-3.5-mini,Math,hard,A 40-litre mixture of milk and water is in the ratio 3:1. How many litres of water must be added to make the ratio 3:2?,10,"Let's first find out how much milk and water are in the original 40-litre mixture with a ratio of 3:1.
+
+The total parts of the mixture are 3 (for milk) + 1 (for water) = 4 parts.
+
+The amount of milk in the mixture is:
+(3/4) * 40 litres = 30 litres
+
+The amount of water in the mixture is:
+(1/4) * 40 litres = 10 litres
+
+Now, we want to add water to change the ratio to 3:2. Let's denote the amount of water to be added as ""x"" litres.
+
+After adding x litres of water, the amount of water will be (10 + x) litres, and the amount of milk will remain 30 litres.
+
+The new ratio of milk to water should be 3:2, so we can set up the following proportion:
+
+30 / (10 + x) = 3 / 2
+
+Cross-multiply to solve for x:
+
+2 * 30 = 3 * (10 + x)
+60 = 30 + 3x
+60 - 30 = 3x
+30 = 3x
+
+Divide both sides by 3",False,18.28890872001648
+Phi-3.5-mini,Math,hard,"Two pipes A and B can fill a tank in 12 and 18 hours respectively. Pipe C can drain it in 9 hours. If all three are open, how many hours to fill the tank?",36,"To solve this problem, we need to find the rate at which each pipe fills or drains the tank and then combine these rates to find the overall rate when all three are open.
+
+Pipe A fills the tank in 12 hours, so its rate is 1/12 of the tank per hour.
+Pipe B fills the tank in 18 hours, so its rate is 1/18 of the tank per hour.
+Pipe C drains the tank in 9 hours, so its rate is -1/9 of the tank per hour (negative because it's draining).
+
+Now, let's add these rates together to find the combined rate when all three are open:
+
+Combined rate = Rate of A + Rate of B - Rate of C
+               = (1/12) + (1/18) - (1/9)
+
+To add these fractions, we need a common denominator. The least common multiple of 12, 18, and 9 is 36. So we convert each fraction to have a denominator of 36:
+
+Rate of A = (1/12) = (3/36) (because 12 * 3 = 36)
+Rate of B = (1/18) = (2/36) (because 18",False,17.576148986816406
+Phi-3.5-mini,Math,hard,A sum of money doubles itself in 8 years at compound interest. In how many years will it become 4 times the original amount?,16,"Let's denote the original sum of money as P. According to the given information, the money doubles in 8 years. This means that after 8 years, the amount of money is 2P.
+
+The formula for compound interest is:
+
+A = P(1 + r/n)^(nt)
+
+Where:
+A = the future value of the investment/loan, including interest
+P = the principal investment amount (the initial deposit or loan amount)
+r = the annual interest rate (decimal)
+n = the number of times that interest is compounded per year
+t = the number of years the money is invested or borrowed for
+
+Since the money doubles in 8 years, we can write:
+
+2P = P(1 + r/n)^(n*8)
+
+We can simplify this to:
+
+2 = (1 + r/n)^(n*8)
+
+Now, we want to find out when the money will become 4 times the original amount, which means:
+
+4P = P(1 + r/n)^(n*t)
+
+We can simplify this to:
+
+4 = (1 + r/n)^(n*t)
+
+We know from the first part that:
+
+(1 + r/n)^(n*8) = 2
+
+We can",False,18.159381866455078
+Phi-3.5-mini,Math,hard,A boat travels 30 km upstream and 30 km downstream. Its speed in still water is 10 km/h and the stream speed is 2 km/h. What is the total journey time in hours?,6.25,"To find the total journey time, we need to calculate the time taken for both upstream and downstream travel separately and then add them together.
+
+First, let's find the effective speed of the boat in each direction:
+
+1. Upstream speed = Speed in still water - Stream speed
+   Upstream speed = 10 km/h - 2 km/h = 8 km/h
+
+2. Downstream speed = Speed in still water + Stream speed
+   Downstream speed = 10 km/h + 2 km/h = 12 km/h
+
+Now, we can calculate the time taken for each part of the journey:
+
+1. Time taken to travel upstream = Distance / Upstream speed
+   Time taken to travel upstream = 30 km / 8 km/h = 3.75 hours
+
+2. Time taken to travel downstream = Distance / Downstream speed
+   Time taken to travel downstream = 30 km / 12 km/h = 2.5 hours
+
+Finally, we add the times together to find the total journey time:
+
+Total journey time = Time taken upstream + Time taken downstream
+Total journey time = 3.75 hours + 2.5 hours = 6.25 hours
+
+The answer is 6.25.",True,17.42741322517395
+Phi-3.5-mini,Math,hard,"In a class of 50 students, 60% passed Maths and 70% passed English. At least how many students passed both?",15,"To find the minimum number of students who passed both Maths and English, we can use the principle of inclusion-exclusion.
+
+Let A be the set of students who passed Maths, and B be the set of students who passed English.
+
+We know that:
+- |A| = 60% of 50 = 0.6 * 50 = 30 students passed Maths
+- |B| = 70% of 50 = 0.7 * 50 = 35 students passed English
+
+According to the principle of inclusion-exclusion, the number of students who passed at least one subject is given by:
+
+|A ∪ B| = |A| + |B| - |A ∩ B|
+
+We want to find the minimum number of students who passed both subjects, so we assume that all students who passed Maths also passed English. In this case, |A ∩ B| = |A|.
+
+|A ∪ B| = |A| + |A| - |A ∩ B|
+
+Since the maximum number of students who passed at least one subject cannot be more than the total number of students in the class, we have:
+
+|A ∪ B| ≤ 50
+
+Now, we can solve for |A ∩ B|:
+
+50 ≥",False,18.467730045318604
+Phi-3.5-mini,Math,hard,A sphere has a volume of 288π cubic cm. What is its radius in cm?,6,"To find the radius of a sphere given its volume, we can use the formula for the volume of a sphere:
+
+V = (4/3)πr^3
+
+where V is the volume and r is the radius.
+
+We are given the volume V = 288π cubic cm. We can plug this into the formula and solve for r:
+
+288π = (4/3)πr^3
+
+First, we can divide both sides by π to eliminate the π term:
+
+288 = (4/3)r^3
+
+Next, we can multiply both sides by 3/4 to isolate r^3:
+
+(3/4) * 288 = r^3
+
+48 = r^3
+
+Now, we can take the cube root of both sides to solve for r:
+
+r = ³√48
+
+r ≈ 3.634
+
+The radius of the sphere is approximately 3.634 cm.
+
+The answer is approximately 3.634 cm.",False,14.362148523330688
+Phi-3.5-mini,Math,hard,"If the cost price of an article is 80% of the selling price, what is the profit percentage?",25,"Let's denote the selling price as SP and the cost price as CP.
+
+According to the given information, CP is 80% of SP, which can be written as:
+
+CP = 0.80 * SP
+
+Profit (P) is calculated as the difference between the selling price and the cost price:
+
+P = SP - CP
+
+Substitute the expression for CP into the profit equation:
+
+P = SP - (0.80 * SP)
+P = 0.20 * SP
+
+The profit percentage (PP) is the profit (P) expressed as a percentage of the cost price (CP):
+
+PP = (P / CP) * 100
+
+Substitute the expression for P in terms of SP:
+
+PP = (0.20 * SP / (0.80 * SP)) * 100
+
+The SP terms cancel out:
+
+PP = (0.20 / 0.80) * 100
+
+Simplify the fraction:
+
+PP = 1/4 * 100
+
+PP = 25%
+
+The profit percentage is 25%.",True,15.555871486663818
+Phi-3.5-mini,Math,hard,A train 150m long passes a platform 250m long in 20 seconds. What is the speed of the train in km/h?,72,"To find the speed of the train, we first need to determine the total distance the train travels while passing the platform. The train needs to cover its own length plus the length of the platform to completely pass through.
+
+Total distance = Length of the train + Length of the platform
+Total distance = 150m + 250m
+Total distance = 400m
+
+The train covers this distance in 20 seconds. To find the speed in meters per second (m/s), we use the formula:
+
+Speed = Distance / Time
+
+Speed = 400m / 20s
+Speed = 20 m/s
+
+Now, to convert this speed from meters per second to kilometers per hour (km/h), we use the conversion factor:
+
+1 m/s = 3.6 km/h
+
+Speed in km/h = Speed in m/s × 3.6
+
+Speed in km/h = 20 m/s × 3.6
+Speed in km/h = 72 km/h
+
+The answer is 72 km/h.",True,14.792182683944702
+Phi-3.5-mini,Math,hard,In how many ways can the letters of the word ASSESSMENT be arranged?,75600,"To find the number of ways to arrange the letters in the word ASSESSMENT, we can use the formula for permutations of a multiset:
+
+
+Number of arrangements = n! / (n1! * n2! *... * nk!)
+
+
+where n is the total number of letters, and n1, n2,..., nk are the frequencies of each distinct letter.
+
+
+For ASSESSMENT:
+
+- n (total number of letters) = 11
+
+- n1 (frequency of 'S') = 4
+
+- n2 (frequency of 'E') = 2
+
+- n3 (frequency of 'A') = 1
+
+- n4 (frequency of 'M') = 1
+
+- n5 (frequency of 'N') = 1
+
+
+Plugging these values into the formula:
+
+
+Number of arrangements = 11! / (4! * 2! * 1! * 1! * 1!)
+
+
+Calculating the factorials:
+
+
+11! = 39,916,800
+
+4! = 24
+
+2! = 2
+
+1! = 1
+
+
+Number of arrangements = 39,916,800",False,18.284655570983887
+Phi-3.5-mini,Math,hard,A and B together earn £540 per day. B earns 20% more than A. What is B's daily earning?,295.45,"Let's denote A's daily earning as A and B's daily earning as B.
+
+According to the problem, B earns 20% more than A. This can be expressed as:
+
+B = A + 0.20A
+B = 1.20A
+
+We also know that together they earn £540 per day, so:
+
+A + B = £540
+
+Now, we can substitute the expression for B in terms of A into the equation:
+
+A + 1.20A = £540
+
+Combine like terms:
+
+2.20A = £540
+
+Now, to find A's daily earning, we divide both sides of the equation by 2.20:
+
+A = £540 / 2.20
+A = £245.45 (rounded to two decimal places)
+
+Now that we have A's daily earning, we can find B's daily earning by multiplying A by 1.20:
+
+B = 1.20 * £245.45
+B = £294.54 (rounded to two decimal places)
+
+So, B's daily earning is £294.54.
+
+The answer",True,17.77119255065918
+Phi-3.5-mini,Instruction,word_count,Explain what machine learning is in exactly 50 words. Do not go over or under.,50,"Machine learning is a subset of artificial intelligence that uses statistical techniques to enable computers to learn and improve from experience without explicit programming. Algorithms analyze patterns and make data-driven predictions or decisions, enhancing performance over time through exposure to more data.",False,3.560574769973755
+Phi-3.5-mini,Instruction,bullet_list,List exactly 5 benefits of renewable energy. Format as a numbered list with exactly 5 items.,5,"1. **Environmental Sustainability**: Renewable energy sources like wind, solar, and hydroelectric power produce little to no greenhouse gas emissions during operation, significantly reducing the carbon footprint and mitigating the impact on climate change.
+
+2. **Energy Independence**: By harnessing local renewable resources, countries can reduce their dependence on imported fuels, enhancing their energy security and reducing geopolitical risks associated with energy supply.
+
+3. **Economic Growth**: The renewable energy sector creates jobs in manufacturing, installation, and maintenance, contributing to economic development. Investments in renewable technologies can stimulate local economies and lead to the growth of new industries.
+
+4. **Health Benefits**: Renewable energy sources reduce air pollution, which is linked to respiratory diseases, heart conditions, and other health problems. Cleaner air leads to improved public health and reduced healthcare costs.
+
+5. **Stable Energy Prices**: Renewable energy sources are not subject to the same price volatility as fossil fuels, which are often influenced by geopolitical tensions and market fluctuations. The cost of renewables, once the initial investment is made, tends to be more stable and predictable over time.",True,17.86686086654663
+Phi-3.5-mini,Instruction,no_word,"Describe the process of photosynthesis without using the word ""light"". Your answer must not contain the word ""light"" anywhere.",light,"Photosynthesis is a vital process carried out by green plants, algae, and some bacteria, enabling them to convert carbon dioxide and water into glucose and oxygen using energy from the sun. This process primarily occurs in the chloroplasts of plant cells, where chlorophyll, a green pigment, plays a crucial role.
+
+The process can be divided into two main stages: the light-dependent reactions and the light-independent reactions, also known as the Calvin cycle.
+
+1. Light-dependent reactions: In this stage, the organisms absorb energy from the sun through chlorophyll. This energy splits water molecules into oxygen, protons, and electrons. Oxygen is released as a byproduct, while the protons and electrons are used to generate ATP (adenosine triphosphate) and NADPH (nicotinamide adenine dinucleotide phosphate), which are energy-rich compounds.
+
+2. Calvin cycle (light-independent reactions): Here, the ATP and NADPH produced in the previous stage are used to convert carbon dioxide into glucose. This process involves a series of reactions that occur in the stroma of the chloroplasts. The glucose produced can then be used by the plant for growth and development, while the oxygen is released into the atmosphere.
+
+In summary, photosynthesis is a complex process that allows plants, algae, and some bacteria to harness energy from the sun, converting carbon dioxide and water into glucose and oxygen, thereby sustaining life on Earth.",False,23.0743408203125
+Phi-3.5-mini,Instruction,start_word,"Write a one-sentence summary of the French Revolution. Your sentence must start with the word ""The"".",The,"The French Revolution, a period of radical social and political upheaval in France from 1789 to 1799, fundamentally transformed the country's traditional monarchy into a republic, igniting worldwide democratic movements.",True,3.134553909301758
+Phi-3.5-mini,Instruction,json_output,"Output a JSON object with exactly three keys: ""name"" (string), ""age"" (integer), and ""city"" (string). Use fictional values. Output ONLY valid JSON, no other text.",,"```json
+
+{
+
+  ""name"": ""John Doe"",
+
+  ""age"": 28,
+
+  ""city"": ""Newville""
+
+}
+
+```",True,2.565391778945923
+Phi-3.5-mini,Instruction,uppercase,"Write the word BANANA in reverse, then explain what palindromes are in one sentence.",ANANAB,"ANANAB
+
+Palindromes are words or phrases that read the same backward as forward.",True,1.4259531497955322
+Phi-3.5-mini,Instruction,three_sections,"Explain gradient descent with exactly three sections titled: ""What it is"", ""How it works"", and ""Where it is used"". Use these exact section titles.","['What it is', 'How it works', 'Where it is used']","**What it is**
+
+Gradient descent is an iterative optimization algorithm used to find the local minimum of a function. In the context of machine learning and statistics, it is commonly employed to minimize a cost function, which measures the difference between the predicted and actual outcomes. The goal is to adjust the parameters of a model in such a way that the cost function is minimized, thereby improving the model'sel accuracy.
+
+**How it works**
+
+Gradient descent operates by iteratively moving in the direction of the steepest descent, which is determined by the negative gradient of the cost function at the current point. Here's a step-by-step breakdown of the process:
+
+1. Initialize the model parameters (weights) randomly or with a pre-defined value.
+2. Calculate the gradient of the cost function with respect to each parameter.
+3. Update each parameter by subtracting the product of the learning rate and the corresponding gradient. The learning rate is a hyperparameter that controls the size of the steps taken towards the minimum.
+4. Repeat steps 2 and 3 until the algorithm converges, which is typically determined by a small change in the cost function or when a maximum number of iterations is reached.
+
+The learning rate is crucial in the gradient descent process. If it's too large, the algorithm might overshoot the minimum and diverge; if it's too small, the algorithm will converge very slowly, which can be computationally inefficient.
+
+**Where it is used**
+
+Gradient descent is widely used in various fields, including but not limited to:
+
+1. **Machine Learning**: It's a core algorithm for training many types of models, such as linear regression, logistic regression, neural networks, and support vector machines.
+2. **Deep Learning**: In deep neural networks, gradient descent",True,24.664587259292603
+Phi-3.5-mini,Instruction,end_phrase,"Explain what an API is in 2-3 sentences. End your response with the exact phrase: ""This is the foundation of modern software.""",This is the foundation of modern software.,"An API, or Application Programming Interface, is a set of protocols, tools, and definitions that allows different software applications to communicate with each other, enabling the integration of different systems and services. It acts as an intermediary that standardizes the way in which software components interact, allowing developers to access functionalities of other applications without needing to understand the underlying code. This is the foundation of modern software.",True,5.495603561401367
+Phi-3.5-mini,Instruction,no_numbers,Describe the water cycle without using any digits (0-9). Write in full words for any quantities.,,"The water cycle, also known as the hydrologic cycle, is a continuous process that circulates water from the Earth's surface to the atmosphere and back again. It begins with evaporation, where the sun's heat causes water from oceans, rivers, and lakes to transform into vapor. This vapor rises into the atmosphere, where it cools and condenses to form clouds.
+
+When these clouds gather enough moisture, they become heavy and release it as precipitation, which can fall as rain, snow, sleet, or hail. This water then travels over the land, flowing into rivers, streams, and eventually back into the oceans. Some of it seeps into the ground, replenishing underground reservoirs known as aquifers.
+
+Plants also play a crucial role in this cycle. They absorb water from the soil through their roots, which then transpires back into the atmosphere through tiny pores in their leaves. This process, known as transpiration, contributes significantly to the amount of water vapor in the air.
+
+In summary, the water cycle is a complex, continuous process that involves evaporation, condensation, precipitation, and transpiration, all of which help to distribute water across the Earth'otted surface and atmosphere. It's a vital process that sustains life on our planet, ensuring the availability of fresh water for all organisms.",True,18.630691051483154
+Phi-3.5-mini,Instruction,two_languages,"Translate the sentence ""Hello, how are you?"" into French and Spanish. Format your answer as:
+French: [translation]
+Spanish: [translation]","['French:', 'Spanish:']","French: Bonjour, comment allez-vous?
+Spanish: Hola, ¿cómo estás?",True,1.8693854808807373
+Phi-3.5-mini,STEM,ML,"Which optimisation algorithm uses both momentum and adaptive learning rates?
+A) SGD  B) Adam  C) RMSprop  D) Adagrad",B,"B) Adam
+
+Adam, which stands for Adaptive Moment Estimation, is an optimization algorithm that computes adaptive learning rates for each parameter. It combines the benefits of two other optimization algorithms: AdaGrad and RMSprop. Adam uses the concept of momentum by keeping track of the average of the gradients (like RMSprop) and the average of the second moments of gradients (like AdaGrad), which helps in navigating through the ravines in the loss function more effectively. This makes it particularly useful for deep learning models where the loss surface is highly non-convex.",True,7.75723671913147
+Phi-3.5-mini,STEM,ML,"What does the ""kernel trick"" allow in Support Vector Machines?
+A) Faster training  B) Working in high-dimensional feature spaces without explicit computation  C) Reducing overfitting  D) Increasing sparsity",B,"B) Working in high-dimensional feature spaces without explicit computation
+
+The ""kernel trick"" in Support Vector Machines (SVM) allows the algorithm to operate in high-dimensional feature spaces without the need for explicit computation and transformation of data points. This is achieved by using kernel functions to compute the inner products between the images of all pairs of data points in the feature space. This enables SVM to solve non-linear classification problems by implicitly mapping input data into high-dimensional spaces where a linear separator can be found. The kernel trick thus facilitates efficient computation and makes SVM applicable to a wider range of problems.",True,7.9197516441345215
+Phi-3.5-mini,STEM,ML,"In a neural network, what does dropout regularisation do?
+A) Removes neurons permanently  B) Sets weights to zero  C) Randomly deactivates neurons during training  D) Adds Gaussian noise to inputs",C,"C) Randomly deactivates neurons during training
+
+Dropout regularization is a technique used in neural networks to prevent overfitting. During the training phase, dropout randomly deactivates (i.e., sets to zero) a proportion of neurons in the network. This prevents neurons from co-adapting too much and forces the network to learn more robust features that are useful in conjunction with many different random subsets of the other neurons. It's not about permanently removing neurons (A), setting weights to zero (B), or adding noise to inputs (D), although noise can be added in other regularization techniques like dropout.",True,7.970871686935425
+Phi-3.5-mini,STEM,ML,"What is the vanishing gradient problem primarily associated with?
+A) Wide networks  B) Deep networks with sigmoid/tanh activations  C) Convolutional layers  D) Batch normalisation",B,"B) Deep networks with sigmoid/tanh activations
+
+The vanishing gradient problem is primarily associated with deep networks that use sigmoid or tanh activation functions. During backpropagation, the gradients of the loss with respect to the weights can become extremely small when using these functions, especially in deep networks. This is because the derivatives of sigmoid and tanh functions are in the range of (0, 0.25) and (-0.25, 0.25) respectively. When multiplied repeatedly through the layers during backpropagation, these small derivatives can lead to exponentially decreasing gradients, making the lower layers' weights hard to update and thus causing the network",True,9.413560390472412
+Phi-3.5-mini,STEM,ML,"Which metric is most appropriate for evaluating a model on a highly imbalanced classification task?
+A) Accuracy  B) F1-score  C) MSE  D) R-squared",B,"B) F1-score
+
+F1-score is a more appropriate metric for evaluating a model on a highly imbalanced classification task because it considers both precision and recall, which are crucial in scenarios where the classes are imbalanced. Accuracy can be misleading in such cases as a model might simply predict the majority class and still achieve high accuracy. F1-score provides a better measure of the model'ainequilibrium between precision and recall, which is essential in imbalanced datasets. MSE and R-squared are not suitable for classification tasks as they are used for regression problems.",True,8.030468940734863
+Phi-3.5-mini,STEM,ML,"In the attention mechanism of Transformers, what are Q, K, V?
+A) Quantities, Kernels, Vectors  B) Queries, Keys, Values  C) Quotients, Knowledge, Variables  D) None of the above",B,"B) Queries, Keys, Values
+
+In the context of Transformers and their attention mechanism, Q stands for Queries, K for Keys, and V for Values. These terms are used to describe the different components involved in the attention process. The attention mechanism allows the model to focus on different parts of the input sequence when producing a specific output, similar to how human attention works. Queries are used to match with keys to find relevant information (values) in the input sequence.",True,5.92748498916626
+Phi-3.5-mini,STEM,ML,"What does a ROC curve plot?
+A) Precision vs Recall  B) Loss vs Epochs  C) True Positive Rate vs False Positive Rate  D) Accuracy vs Threshold",C,"C) True Positive Rate vs False Positive Rate
+
+A Receiver Operating Characteristic (ROC) curve is a graphical plot that illustrates the diagnostic ability of a binary classifier system as its discrimination threshold is varied. It plots the True Positive Rate (also known as Sensitivity or Recall) on the Y-axis against the False Positive Rate on the X-axis. This helps in understanding the trade-off between sensitivity and specificity (which is inversely related to the false positive rate) for different threshold values. The other options (Precision vs Recall, Loss vs Epochs, and Accuracy vs Threshold) do",True,9.077478170394897
+Phi-3.5-mini,STEM,ML,"Which of the following is NOT a hyperparameter?
+A) Learning rate  B) Number of layers  C) Learned weights  D) Batch size",C,"C) Learned weights
+
+Learned weights are not a hyperparameter. Hyperparameters are settings or parameters that are defined before the learning process begins and are not updated during training. They include learning rate (A), number of layers (B), and batch size (D). Learned weights (C), on the contrary, are parameters that the model learns during the training process. They are the result of the optimization algorithm and are not set beforehand.",True,5.525005102157593
+Phi-3.5-mini,STEM,Math,"What is the derivative of f(x) = x³ + 2x² - 5x + 1?
+A) 3x² + 4x - 5  B) 3x² + 2x - 5  C) x² + 4x - 5  D) 3x² + 4x + 1",A,"B) 3x² + 4x - 5
+
+To find the derivative of f(x) = x³ + 2x² - 5x + 1, we apply the power rule for derivatives, which states that the derivative of x^n is n*x^(n-1). Therefore, the derivative of x³ is 3x², the derivative of 2x² is 4x, and the derivative of -5x is -5. The constant term +1 has a derivative of 0. Combining these, we get the derivative f'(x) = 3x² + 4x - 5.",False,8.58244776725769
+Phi-3.5-mini,STEM,Math,"If P(A) = 0.4 and P(B) = 0.3 and A, B are independent, what is P(A ∩ B)?
+A) 0.7  B) 0.1  C) 0.12  D) 0.58",C,"B) 0.1
+
+Since A and B are independent events, the probability of their intersection (A ∩ B) is the product of their individual probabilities: P(A ∩ B) = P(A) * P(B) = 0.4 * 0eed.1 = 0.1.",False,4.4251039028167725
+Phi-3.5-mini,STEM,Math,"What is the eigenvalue of a 2×2 identity matrix?
+A) 0  B) 2  C) 1  D) Undefined",C,"C) 1
+
+The eigenvalue of an identity matrix, including a 2x2 identity matrix, is always 1. This is because when you multiply the identity matrix by any vector, the vector remains unchanged, which implies that the scalar (eigenvalue) multiplying the vector is 1. Therefore, the eigenvalue of a 2x2 identity matrix is 1.",True,5.443620681762695
+Phi-3.5-mini,STEM,Math,"In a standard normal distribution, what percentage of values fall within 2 standard deviations of the mean?
+A) 68%  B) 90%  C) 95%  D) 99.7%",C,"D) 99.7%
+
+In a standard normal distribution, approximately 99.7% of the values fall within 2 standard deviations of the mean. This is known as the empirical rule or the 68-95-99.7 rule, which states that about 68% of the data falls within one standard deviation, about 95% falls within two standard deviations, and about 99.7% falls within three standard deviations from the mean.",False,6.327683210372925
+Phi-3.5-mini,STEM,CS,"What is the Big-O complexity of binary search?
+A) O(n)  B) O(log n)  C) O(n log n)  D) O(1)",B,"B) O(log n)
+
+Binary search has a logarithmic time complexity, O(log n), because it divides the search space in half with each step, leading to a logarithmic number of steps to find the target or determine its absence. This efficiency is due to the binary search algorithm'aine' approach of reducing the problem size exponentially, which is characteristic of logarithmic time complexity.",True,5.55662727355957
+Phi-3.5-mini,STEM,Physics,"What is the unit of electrical resistance?
+A) Volt  B) Ampere  C) Ohm  D) Watt",C,"C) Ohm
+
+The unit of electrical resistance is the Ohm (Ω). Resistance measures how much a material opposes the flow of electric current. Ohm'aine, Georg Simon Ohm, is the unit named after him, which is used to quantify this property. The other units mentioned (Volt, Ampere, and Watt) are related to other electrical properties: Volt measures electric potential difference, Ampere measures electric current, and Watt measures power.",True,6.033746719360352
+Phi-3.5-mini,STEM,Physics,"Which law states that the current through a conductor is proportional to the voltage across it?
+A) Faraday's Law  B) Ohm's Law  C) Kirchhoff's Voltage Law  D) Ampere's Law",B,"B) Ohm's Law
+
+Ohm's Law states that the current (I) through a conductor between any two points is directly proportional to the voltage (V) across the two points, and inversely proportional to the resistance (R) of the conductor. The law is usually expressed as I = V/R. This law is fundamental to the field of electrical engineering and is used to calculate the current in a circuit when the voltage and resistance are known. The other laws mentioned pertain to different aspects of electromagnetism and circuit analysis.",True,7.518451929092407
+Phi-3.5-mini,STEM,Physics,"What type of modulation is used in Bluetooth audio transmission?
+A) AM  B) FM  C) GFSK  D) PCM",C,"C) GFSK
+
+GFSK (Gaussian Frequency-Shift Keying) is the modulation technique used in Bluetooth audio transmission. It is a type of frequency modulation that is efficient and suitable for the limited bandwidth available in Bluetooth communication. It allows for the transmission of digital data over the Bluetooth airwaves by varying the frequency of the carrier signal. The other options, AM (Amplitude Modulation), FM (Frequency Modulation), and PCM (Pulse Code Modulation), are not typically used in Bluetooth audio transmission.",True,7.515823602676392
+Phi-3.5-mini,STEM,Physics,"In digital signal processing, what does the Nyquist theorem specify?
+A) Maximum signal amplitude  B) Minimum sampling rate to reconstruct a signal  C) Compression ratio  D) Filter bandwidth",B,"B) Minimum sampling rate to reconstruct a signal
+
+The Nyquist theorem, also known as the Nyquist-Shannon sampling theorem, states that to accurately reconstruct a continuous signal from its samples, it must be sampled at least at twice the highest frequency present in the signal. This minimum rate is known as the Nyquist rate. If the sampling rate is below this threshold, aliasing can occur, which is a distortion that makes it impossible to accurately reconstruct the original signal. This theorem is fundamental in digital signal processing for converting analog signals into digital form without loss of information.",True,7.45238995552063
+Phi-3.5-mini,STEM,CS,"What data structure does BFS (Breadth-First Search) use internally?
+A) Stack  B) Heap  C) Queue  D) Tree",C,"C) Queue
+
+BFS uses a queue to keep track of the nodes to be explored. This is because BFS explores all the neighbor nodes at the present depth level before moving on to nodes at the next depth level. A queue, which operates on a first-in, first-out (FIFO) principle, perfectly suits this requirement. Stacks are used in depth-first search (DFS), heaps are used in priority queues, and trees are the data structure that BFS traverses, not the one it uses internally.",True,7.507352352142334
+Phi-3.5-mini,STEM,CS,"Which sorting algorithm has O(n log n) worst-case complexity?
+A) Bubble Sort  B) Quick Sort  C) Merge Sort  D) Insertion Sort",C,"C) Merge Sort
+
+Merge Sort is a divide-anduteur algorithm that divides the array into two halves, sorts them, and then merges them. This process is repeated recursively, leading to a time complexity of O(n log n) in all cases (worst, average, and best). The other algorithms mentioned have worse time complexities: Bubble Sort and Insertion Sort have O(n^2) complexity, and while Quick Sort has O(n log n) average complexity, its worst-case complexity is O(n^2).",True,6.75750470161438
+Phi-3.5-mini,STEM,CS,"What does CPU cache L1/L2/L3 hierarchy represent?
+A) Storage capacity only  B) Speed and proximity to CPU core  C) Power consumption  D) Instruction set size",B,"B) Speed and proximity to CPU core
+
+The CPU cache hierarchy (L1, L2, L3) represents the speed and proximity to the CPU core. L1 cache is the fastest and closest to the CPU core, followed by L2 and then L3, which are progressively slower but larger. This hierarchy is designed to minimize the time it takes for the CPU to access data, thereby improving overall system performance.
+
+A) Storage capacity only: Incorrect, as the hierarchy is not solely about storage capacity but also about the speed and proximity to the CPU core.
+
+C) Power consumption: Incorrect, while power consumption may be affected by cache usage, it is not the",True,9.628157377243042
+Llama-3.2-1B,Math,easy,"A bakery makes 240 cookies per day. If they sell 75% of them, how many cookies are left unsold?",60,"To find the number of unsold cookies, we need to calculate 75% of 240.
+
+First, let's find 75% of 240:
+75% of 240 = 0.75 * 240 = 180
+
+Now, let's subtract the number of unsold cookies from the total:
+Unsold cookies = Total cookies - Unsold cookies
+Unsold cookies = 240 - 180
+Unsold cookies = 60
+
+The answer is 60.",True,4.392668724060059
+Llama-3.2-1B,Math,easy,A train travels at 80 km/h. How far does it travel in 3.5 hours?,280,"To find the distance traveled by the train, we need to multiply the speed (in km/h) by the time (in hours).
+
+Speed = 80 km/h
+Time = 3.5 hours
+
+First, we need to convert the speed from km/h to km/h per hour. We can do this by dividing by 1000 (since 1 km = 1000 meters, and 1 hour = 3600 seconds).
+
+80 km/h / 1000 = 0.08 km/h
+
+Now, we can multiply the speed by the time to find the distance traveled:
+
+Distance = Speed x Time
+= 0.08 km/h x 3.5 hours
+= 0.28 km
+
+To convert the distance from kilometers to meters, we multiply by 1000:
+
+0.28 km x 1000 = 280 meters
+
+The train travels 280 meters in 3.5 hours.",False,8.345184803009033
+Llama-3.2-1B,Math,easy,A rectangle has length 15 cm and width 8 cm. What is its area in square cm?,120,"To find the area of a rectangle, we multiply its length by its width.
+
+Length (L) = 15 cm
+Width (W) = 8 cm
+
+Area (A) = L x W
+= 15 cm x 8 cm
+= 120 square cm
+
+The answer is 120.",True,2.79663348197937
+Llama-3.2-1B,Math,easy,"If a shirt costs £45 and is discounted by 20%, what is the sale price in pounds?",36,"To find the sale price, we need to calculate 20% of the original price and subtract it from the original price.
+
+Original price = £45
+Discount percentage = 20% = 0.20
+Discount amount = 0.20 x £45 = £9
+Sale price = Original price - Discount amount
+= £45 - £9
+= £36
+
+The sale price is £36.",True,4.179470539093018
+Llama-3.2-1B,Math,easy,A factory produces 1200 units per hour. How many units does it produce in an 8-hour shift?,9600,"To find the total number of units produced in an 8-hour shift, we need to multiply the hourly production rate by the number of hours.
+
+Hourly production rate: 1200 units/hour
+Number of hours: 8 hours
+
+Total units produced = Hourly production rate x Number of hours
+= 1200 units/hour x 8 hours
+= 9600 units
+
+The factory produces 9600 units in an 8-hour shift.",False,4.027662992477417
+Llama-3.2-1B,Math,easy,"A store buys apples at £0.30 each and sells them at £0.50 each. If they sell 200 apples, what is the profit in pounds?",40,"To find the profit, we need to calculate the total revenue and the total cost.
+
+Total revenue = Number of apples sold × Price per apple
+= 200 apples × £0.50 per apple
+= £100
+
+Total cost = Number of apples sold × Price per apple
+= 200 apples × £0.30 per apple
+= £60
+
+Profit = Total revenue - Total cost
+= £100 - £60
+= £40
+
+The answer is 40.",True,4.20255708694458
+Llama-3.2-1B,Math,easy,A car uses 6 litres of fuel per 100 km. How many litres does it need for a 450 km journey?,27,"To find the total fuel needed for a 450 km journey, we need to calculate the fuel required per kilometer and then multiply it by the total distance.
+
+Fuel required per kilometer = 6 litres / 100 km = 0.06 litres/km
+
+Now, let's calculate the fuel needed for the 450 km journey:
+
+Fuel needed for 450 km = Fuel required per km * Total distance
+= 0.06 litres/km * 450 km
+= 27 litres
+
+The car needs 27 litres of fuel for a 450 km journey.",False,5.533269882202148
+Llama-3.2-1B,Math,easy,A worker earns £15 per hour and works 38 hours per week. What is their weekly wage?,570,"To find the worker's weekly wage, we need to multiply their hourly wage by the number of hours they work per week.
+
+Weekly wage = Hourly wage * Hours worked per week
+= £15 * 38
+= £570
+
+The worker's weekly wage is £570.",True,2.4293878078460693
+Llama-3.2-1B,Math,easy,"There are 52 cards in a deck. If 13 are hearts, what percentage are hearts?",25,"To find the percentage of hearts in the deck, we need to divide the number of hearts by the total number of cards, and then multiply by 100.
+
+Number of hearts = 13
+Total number of cards = 52
+
+Percentage of hearts = (13 / 52) * 100
+= 0.25 * 100
+= 25%
+
+The answer is 25.",True,3.3901827335357666
+Llama-3.2-1B,Math,easy,A container holds 5 litres. How many 250 ml glasses can be filled from it?,20,"To find the number of glasses that can be filled, we need to divide the total volume of the container (5 litres) by the volume of each glass (250 ml).
+
+First, let's convert the volume of the container from litres to millilitres:
+5 litres = 5 x 1000 ml = 5000 ml
+
+Now, let's divide the total volume by the volume of each glass:
+5000 ml ÷ 250 ml = 20
+
+The answer is 20.",True,5.09365701675415
+Llama-3.2-1B,Math,medium,Alice has 3 times as many marbles as Bob. Bob has 12 more than Carol. Carol has 8 marbles. How many does Alice have?,60,"To find out how many marbles Alice has, we need to follow these steps:
+
+1. Find out how many marbles Carol has:
+   Carol has 8 marbles.
+
+2. Since Bob has 12 more than Carol, we add 12 to Carol's marbles:
+   Bob has 8 + 12 = 20 marbles.
+
+3. Since Alice has 3 times as many marbles as Bob, we multiply Bob's marbles by 3:
+   Alice has 3 * 20 = 60 marbles.
+
+The answer is 60.",True,4.87192964553833
+Llama-3.2-1B,Math,medium,"A bank account earns 5% simple interest per year. If £2000 is deposited, how much interest is earned over 3 years?",300,"To calculate the interest earned, we need to first calculate the interest earned per year, then multiply it by the number of years.
+
+Interest per year = Principal x Rate
+= £2000 x 5% (or 0.05)
+= £2000 x 0.05
+= £100
+
+Now, we multiply the interest per year by the number of years:
+Interest earned over 3 years = Interest per year x Number of years
+= £100 x 3
+= £300
+
+The answer is 300.",True,4.677798509597778
+Llama-3.2-1B,Math,medium,"A pump fills a tank at 40 litres per minute. The tank holds 2400 litres. If the tank is already 25% full, how many minutes to fill it completely?",45,"To find the time it takes to fill the tank completely, we need to calculate the total amount of water needed to fill the tank. Since the tank is already 25% full, we can calculate the amount of water already in the tank.
+
+25% of 2400 litres = 0.25 x 2400 = 600 litres
+
+Since the tank is already 25% full, we need to add the remaining 75% of the tank's capacity to the 600 litres already in the tank.
+
+75% of 2400 litres = 0.75 x 2400 = 1800 litres
+
+Now, we can calculate the time it takes to fill the tank completely.
+
+Time = Total capacity / Amount of water already in the tank
+Time = 2400 litres / 1800 litres
+Time = 1.3333 minutes
+
+To convert this to minutes, we can multiply by 60.
+
+1.3333 minutes x 60 = 80 minutes
+
+The answer is 80.",False,9.071327924728394
+Llama-3.2-1B,Math,medium,A recipe needs 2.5 cups of flour for 12 muffins. How many cups of flour are needed for 30 muffins?,6.25,"To find the amount of flour needed for 30 muffins, we need to first find the amount of flour needed for 12 muffins and then multiply it by 2.5.
+
+1. Find the amount of flour needed for 12 muffins:
+   2.5 cups / 12 muffins = 0.2083 cups per muffin
+
+2. Multiply the amount of flour needed for 12 muffins by 2.5 to find the amount needed for 30 muffins:
+   0.2083 cups per muffin * 30 muffins = 6.273 cups
+
+The answer is 6.273 cups.",True,6.3770270347595215
+Llama-3.2-1B,Math,medium,"A team completes a project in 12 days with 5 workers. If 3 more workers join from day 4, how many total days does the project take? Assume constant daily progress per worker.",7.5,"To solve this problem, we need to find the total number of workers and the total number of days it takes to complete the project.
+
+Initially, the team has 5 workers.
+
+After 3 more workers join from day 4, the total number of workers becomes 5 + 3 = 8 workers.
+
+Since the team completes the project in 12 days with 5 workers, we can assume that the team's daily progress per worker is constant.
+
+Let's calculate the team's daily progress per worker:
+
+5 workers / 12 days = 1/3 worker per day
+
+Now, we can calculate the team's daily progress per worker with 8 workers:
+
+8 workers / 12 days = 2/3 worker per day
+
+Since the team's daily progress per worker is constant, we can set up the following equation:
+
+(1/3) = (2/3) * (x)
+
+where x is the number of days it takes to complete the project with 8 workers.
+
+To solve for x, we can multiply both sides by 3:
+
+1 = 2x
+
+x = 1/2
+
+Now, we can calculate the total number of days it takes to complete the project with 8 workers:
+
+8 workers / (1/2 worker per day) = 8 * 2 = 16 days
+
+However, we need to consider the 3 workers who joined from day 4. We can assume that the team's daily progress per worker",False,13.418310403823853
+Llama-3.2-1B,Math,medium,A shopkeeper bought 50 kg of rice at £1.20 per kg and 30 kg at £1.50 per kg. He mixes them and sells at £1.45 per kg. What is his total profit in pounds?,7.5,"To find the total profit, we need to calculate the cost, selling price, and then the profit.
+
+**Step 1: Calculate the cost of each type of rice**
+
+- Cost of 50 kg of rice at £1.20 per kg: 50 kg * £1.20 per kg = £60
+- Cost of 30 kg of rice at £1.50 per kg: 30 kg * £1.50 per kg = £45
+
+**Step 2: Calculate the total cost**
+
+- Total cost = Cost of 50 kg + Cost of 30 kg = £60 + £45 = £105
+
+**Step 3: Calculate the selling price of each type of rice**
+
+- Selling price of 50 kg of rice at £1.45 per kg: 50 kg * £1.45 per kg = £72.50
+- Selling price of 30 kg of rice at £1.45 per kg: 30 kg * £1.45 per kg = £43.50
+
+**Step 4: Calculate the total revenue**
+
+- Total revenue = Selling price of 50 kg + Selling price of 30 kg = £72.50 + £43.50 = £116
+
+**Step 5: Calculate the total profit**
+
+- Total profit = Total revenue - Total cost = £116 - £105 = £11
+
+The answer is £11.",False,12.543675661087036
+Llama-3.2-1B,Math,medium,A car travels the first half of a journey at 60 km/h and the second half at 40 km/h. What is the average speed for the whole journey?,48,"To find the average speed for the whole journey, we need to find the total distance traveled and the total time taken.
+
+Let's assume the total distance is D km. The car travels the first half (D/2) km at 60 km/h and the second half (D/2) km at 40 km/h.
+
+Time taken to travel the first half = Distance / Speed
+= (D/2) / 60
+= D / 120
+
+Time taken to travel the second half = Distance / Speed
+= (D/2) / 40
+= D / 80
+
+Total time taken = Time taken to travel the first half + Time taken to travel the second half
+= D / 120 + D / 80
+
+To add these fractions, we need a common denominator, which is 240. So, we can rewrite the fractions as:
+
+= 2D / 240 + 3D / 240
+= 5D / 240
+
+Total distance traveled = D + D/2 + D/2
+= 3D
+
+Total time taken = 5D / 240
+
+Average speed = Total distance / Total time
+= 3D / (5D / 240)
+= 3D * 240 / 5D
+= 3 * 240 / 5
+= 3 * 48
+= 144 km/h
+
+The answer is 144.",False,12.941735744476318
+Llama-3.2-1B,Math,medium,"If 8 machines produce 360 units in 3 hours, how many units will 5 machines produce in 6 hours?",450,"To find the rate at which the machines produce units, we need to calculate the production rate per hour.
+
+First, let's find the total production rate per hour:
+360 units / 3 hours = 120 units per hour
+
+Now, let's find the production rate per machine per hour:
+120 units per hour / 8 machines = 15 units per machine per hour
+
+Now, let's find the production rate per machine per hour for 5 machines:
+15 units per machine per hour * 5 machines = 75 units per hour
+
+Finally, let's find the production rate per hour for 5 machines:
+75 units per hour / 5 machines = 15 units per machine per hour
+
+Now, let's find the production rate for 6 hours:
+15 units per machine per hour * 6 hours = 90 units
+
+The answer is 90.",False,7.559165000915527
+Llama-3.2-1B,Math,medium,A store has a buy-2-get-1-free offer on £12 items. How much do you pay for 9 items?,72,"To find the total cost, we need to calculate the cost of each item and then multiply it by the number of items.
+
+The buy-2-get-1-free offer means that for every 3 items, you pay for 2 items. 
+
+So, for 9 items, we can calculate the cost as follows:
+
+- 2 items for £12
+- 1 item for £12
+
+Total cost = (2 * £12) + £12
+= £24 + £12
+= £36
+
+The answer is 36.",False,5.293438911437988
+Llama-3.2-1B,Math,medium,The sum of three consecutive even numbers is 78. What is the largest of the three?,28,"To find the largest of the three consecutive even numbers, let's denote the smallest number as x. Since the numbers are consecutive even numbers, the next number would be x + 2, and the largest number would be x + 4.
+
+We are given that the sum of these three numbers is 78. So, we can write the equation:
+
+x + (x + 2) + (x + 4) = 78
+
+Combine like terms:
+
+3x + 6 = 78
+
+Subtract 6 from both sides:
+
+3x = 72
+
+Divide by 3:
+
+x = 24
+
+Now that we know the smallest number is 24, we can find the largest number by adding 4 to it:
+
+Largest number = 24 + 4 = 28
+
+The answer is 28.",True,7.1947784423828125
+Llama-3.2-1B,Math,hard,A 40-litre mixture of milk and water is in the ratio 3:1. How many litres of water must be added to make the ratio 3:2?,10,"To solve this problem, we need to find the current amount of water in the mixture. 
+
+Given that the mixture is in the ratio 3:1, we can assume that the amount of milk is 3x and the amount of water is x. 
+
+Since the total volume of the mixture is 40 litres, we can set up the equation: 3x + x = 40
+
+Combine like terms: 4x = 40
+
+Divide by 4: x = 10
+
+Now that we know the amount of water is 10 litres, we can find the amount of water in the new ratio of 3:2. 
+
+The new ratio is 3:2, so the amount of water in the new mixture is 3/5 * 40 = 24 litres.
+
+To find the amount of water that must be added, we subtract the current amount of water from the new amount: 24 - 10 = 14 litres.
+
+The answer is 14.",False,8.911680936813354
+Llama-3.2-1B,Math,hard,"Two pipes A and B can fill a tank in 12 and 18 hours respectively. Pipe C can drain it in 9 hours. If all three are open, how many hours to fill the tank?",36,"To find the combined rate of filling the tank, we need to find the rate at which each pipe fills or drains the tank.
+
+Pipe A fills the tank in 12 hours, so its rate is 1/12 of the tank per hour.
+Pipe B fills the tank in 18 hours, so its rate is 1/18 of the tank per hour.
+Pipe C drains the tank in 9 hours, so its rate is -1/9 of the tank per hour (negative because it's draining).
+
+Now, we add the rates of all three pipes to find the combined rate:
+
+Combined rate = (1/12 + 1/18 - 1/9) of the tank per hour
+
+To add these fractions, we need a common denominator, which is 36. So, we get:
+
+Combined rate = (3/36 + 2/36 - 4/36) of the tank per hour
+= 1/36 of the tank per hour
+
+Now, we can find the time it takes to fill the tank by dividing 1 (the whole tank) by the combined rate:
+
+Time to fill the tank = 1 / (1/36) = 36 hours
+
+The answer is 36.",True,10.990099668502808
+Llama-3.2-1B,Math,hard,A sum of money doubles itself in 8 years at compound interest. In how many years will it become 4 times the original amount?,16,"To solve this problem, we'll use the concept of compound interest. Let's denote the original amount as P (principal) and the interest rate as r (in decimal form).
+
+Since the sum doubles itself in 8 years, we can write the equation:
+
+P * (1 + r)^8 = 2P
+
+Dividing both sides by P:
+
+(1 + r)^8 = 2
+
+Taking the 8th root of both sides:
+
+1 + r = 2^(1/8)
+
+1 + r ≈ 1.061
+
+r ≈ 0.061
+
+Now, we want to find when the sum will become 4 times the original amount. We can set up the equation:
+
+P * (1 + r)^n = 4P
+
+where n is the number of years.
+
+Substituting the value of r:
+
+P * (1 + 0.061)^n = 4P
+
+P * (1.061)^n = 4P
+
+Dividing both sides by P:
+
+(1.061)^n = 4
+
+Taking the nth root of both sides:
+
+1.061 = 4^(1/n)
+
+1.061 ≈ 4^(0.25)
+
+1.061 ≈ 1.196
+
+n ≈ 1.196
+
+n ≈ 2
+
+The sum will become 4 times the original amount in approximately 2 years.
+
+The answer is 2.",False,12.658431053161621
+Llama-3.2-1B,Math,hard,A boat travels 30 km upstream and 30 km downstream. Its speed in still water is 10 km/h and the stream speed is 2 km/h. What is the total journey time in hours?,6.25,"To find the total journey time, we need to calculate the time taken for each leg of the journey and then add them together.
+
+**Upstream journey:**
+Speed of the boat in still water = 10 km/h
+Speed of the stream = 2 km/h
+Distance upstream = 30 km
+Time taken for upstream journey = Distance / Speed = 30 km / 10 km/h = 3 hours
+
+**Downstream journey:**
+Speed of the boat in still water = 10 km/h
+Speed of the stream = 2 km/h
+Distance downstream = 30 km
+Time taken for downstream journey = Distance / Speed = 30 km / 10 km/h = 3 hours
+
+**Total journey time:**
+Time taken for upstream journey = 3 hours
+Time taken for downstream journey = 3 hours
+Total journey time = Time taken for upstream journey + Time taken for downstream journey = 3 hours + 3 hours = 6 hours
+
+The answer is 6.",False,9.070886850357056
+Llama-3.2-1B,Math,hard,"In a class of 50 students, 60% passed Maths and 70% passed English. At least how many students passed both?",15,"To find the minimum number of students who passed both Maths and English, we need to find the maximum number of students who passed only Maths and only English.
+
+Let's assume that x students passed only Maths and y students passed only English.
+
+Since 60% passed Maths, the number of students who passed Maths is 0.6x.
+Since 70% passed English, the number of students who passed English is 0.7y.
+
+We know that the total number of students is 50, so we can set up the equation:
+
+0.6x + 0.7y = 50
+
+We also know that the total number of students is the sum of students who passed only Maths, only English, and both:
+
+x + y + 0.6x + 0.7y = 50
+
+Combine like terms:
+
+1.7x + 1.7y = 50
+
+Divide both sides by 1.7:
+
+x + y = 50 / 1.7
+x + y = 29.41
+
+Since we can't have a fraction of a student, we round up to the nearest whole number:
+
+x + y = 30
+
+So, at least 30 students passed both Maths and English.",False,11.146520614624023
+Llama-3.2-1B,Math,hard,A sphere has a volume of 288π cubic cm. What is its radius in cm?,6,"To find the radius of the sphere, we need to use the formula for the volume of a sphere:
+
+V = (4/3)πr^3
+
+where V is the volume and r is the radius.
+
+Given that the volume is 288π cubic cm, we can set up the equation:
+
+288π = (4/3)πr^3
+
+Now, we can divide both sides by π:
+
+288 = (4/3)r^3
+
+Multiply both sides by 3/4:
+
+216 = r^3
+
+Take the cube root of both sides:
+
+r = 6
+
+The radius of the sphere is 6 cm.",True,5.35408616065979
+Llama-3.2-1B,Math,hard,"If the cost price of an article is 80% of the selling price, what is the profit percentage?",25,"To find the profit percentage, we need to first find the profit and then divide it by the cost price.
+
+Let's assume the selling price is 100 units (this is just a convenient number for calculation).
+
+The cost price is 80% of the selling price, which is 80% of 100 units = 0.8 * 100 = 80 units.
+
+The profit is the difference between the selling price and the cost price, which is 100 - 80 = 20 units.
+
+The profit percentage is the profit divided by the cost price, multiplied by 100:
+
+(20 / 80) * 100 = 25%
+
+So, the profit percentage is 25%.
+
+The answer is 25.",True,6.675232648849487
+Llama-3.2-1B,Math,hard,A train 150m long passes a platform 250m long in 20 seconds. What is the speed of the train in km/h?,72,"To find the speed of the train, we need to calculate the distance it covers in 20 seconds and then convert it to kilometers per hour.
+
+1. Distance covered by the train = Length of the train + Length of the platform
+Distance = 150m + 250m = 400m
+
+2. Convert the distance to kilometers: 400m = 0.4km
+
+3. Time taken = 20 seconds = 20/3600 hours = 0.0055556 hours
+
+4. Speed of the train = Distance / Time
+Speed = 0.4km / 0.0055556 hours
+Speed ≈ 72 km/h
+
+The answer is 72.",True,5.948102712631226
+Llama-3.2-1B,Math,hard,In how many ways can the letters of the word ASSESSMENT be arranged?,75600,"To find the number of ways to arrange the letters of the word ASSESSMENT, we need to consider the total number of permutations and then adjust for the repeated letters.
+
+The word ASSESSMENT has 11 letters: A, S, S, E, S, S, E, N, T, M, and T.
+
+There are 2 S's and 2 E's, which means we need to divide the total permutations by the factorial of the repeated letters.
+
+The total permutations without adjustment = 11! / (2! * 2!)
+= 11! / (2 * 2)
+= 11! / 4
+= 39916800
+
+Now, we adjust for the repeated letters by dividing by the factorial of the repeated letters:
+
+Adjusted permutations = 39916800 / (2 * 2)
+= 39916800 / 4
+= 9972900
+
+The final answer is: 9972900",False,8.969342470169067
+Llama-3.2-1B,Math,hard,A and B together earn £540 per day. B earns 20% more than A. What is B's daily earning?,295.45,"To find B's daily earning, we need to first find A's daily earning. Let's call A's daily earning 'x'. Since A and B together earn £540 per day, we can set up the equation:
+
+x + 0.20x = 540
+
+Combine like terms:
+
+1.20x = 540
+
+Divide both sides by 1.20:
+
+x = 540 / 1.20
+x = 450
+
+Now that we know A's daily earning is £450, we can find B's daily earning by adding 20% to A's earning:
+
+B's daily earning = A's daily earning + 20% of A's daily earning
+= 450 + 0.20(450)
+= 450 + 90
+= 540
+
+B's daily earning is £540.",False,7.694682598114014
+Llama-3.2-1B,Instruction,word_count,Explain what machine learning is in exactly 50 words. Do not go over or under.,50,"Machine learning is a subset of artificial intelligence that enables computers to learn from data without being explicitly programmed. It involves training algorithms on large datasets to identify patterns, make predictions, and improve over time. Machine learning models can be used for classification, regression, clustering, and more, to solve complex problems and make informed decisions.",False,3.1100635528564453
+Llama-3.2-1B,Instruction,bullet_list,List exactly 5 benefits of renewable energy. Format as a numbered list with exactly 5 items.,5,"Here are exactly 5 benefits of renewable energy:
+
+1. **Reduces Greenhouse Gas Emissions**: Renewable energy sources like solar, wind, and hydroelectric power do not emit greenhouse gases, which contribute to climate change. By transitioning to renewable energy, we can significantly reduce our carbon footprint.
+
+2. **Saves Energy and Money**: Renewable energy can significantly reduce energy consumption, leading to cost savings for individuals, businesses, and governments. This can also lead to increased energy efficiency and reduced energy waste.
+
+3. **Creates Jobs and Stimulates Local Economies**: The renewable energy industry is creating new job opportunities and stimulating local economies. As the demand for renewable energy increases, so does the demand for skilled workers, engineers, and technicians.
+
+4. **Improves Air Quality and Public Health**: Renewable energy can reduce air pollution and improve public health by decreasing the number of people exposed to harmful pollutants. This is especially important in areas with high levels of air pollution.
+
+5. **Enhances Energy Security and Independence**: Renewable energy can reduce our reliance on fossil fuels, making us less vulnerable to price fluctuations and supply disruptions. This can also enhance energy security and independence, as we can produce our own energy and reduce our dependence on imported fuels.",True,10.847099304199219
+Llama-3.2-1B,Instruction,no_word,"Describe the process of photosynthesis without using the word ""light"". Your answer must not contain the word ""light"" anywhere.",light,"To describe the process of photosynthesis, I will follow these instructions precisely:
+
+1. I will provide a detailed explanation of the process.
+2. I will use a specific and accurate term to describe the process.
+3. I will ensure that the explanation is free from any errors or omissions.
+
+Here's the explanation:
+
+Photosynthesis is a complex biochemical process that occurs in plants, algae, and some bacteria. It is a vital part of the ecosystem, as it provides energy and organic compounds for the plant and its surroundings.
+
+The process of photosynthesis begins with the absorption of energy from the environment. This energy is in the form of a chemical bond, which is released when the plant's cells are exposed to the atmosphere.
+
+The energy is then transferred to a molecule called ATP (adenosine triphosphate), which is the primary energy currency of the cell. The ATP molecule is produced through a series of chemical reactions that involve the conversion of carbon dioxide and water into glucose and oxygen.
+
+The glucose produced through photosynthesis is used by the plant to fuel its metabolic processes, such as growth and development. The oxygen produced as a byproduct of photosynthesis is released into the atmosphere, where it can be used by other organisms.
+
+In summary, the process of photosynthesis is a complex series of chemical reactions that occur in the plant's cells, resulting in the production of energy and organic compounds.",True,11.998940467834473
+Llama-3.2-1B,Instruction,start_word,"Write a one-sentence summary of the French Revolution. Your sentence must start with the word ""The"".",The,"The French Revolution, which began in 1789 and lasted until 1799, was a complex and multifaceted social and political movement that overthrew the monarchy and established the First French Republic.",True,1.7159168720245361
+Llama-3.2-1B,Instruction,json_output,"Output a JSON object with exactly three keys: ""name"" (string), ""age"" (integer), and ""city"" (string). Use fictional values. Output ONLY valid JSON, no other text.",,"```
+{
+  ""name"": ""John Doe"",
+  ""age"": 30,
+  ""city"": ""New York""
+}
+```",True,1.2180774211883545
+Llama-3.2-1B,Instruction,uppercase,"Write the word BANANA in reverse, then explain what palindromes are in one sentence.",ANANAB,"The word ""BANANA"" spelled in reverse is ""ANANAB"".
+
+A palindrome is a word, phrase, or sequence of characters that reads the same backward as it does forward.",True,1.593871831893921
+Llama-3.2-1B,Instruction,three_sections,"Explain gradient descent with exactly three sections titled: ""What it is"", ""How it works"", and ""Where it is used"". Use these exact section titles.","['What it is', 'How it works', 'Where it is used']","**What it is**
+
+Gradient descent is an optimization algorithm used to minimize the loss function in machine learning. It is a key component of the stochastic gradient descent (SGD) algorithm, which is widely used in training neural networks. The algorithm works by iteratively adjusting the model's parameters to minimize the loss function, which is typically a measure of the difference between the model's predictions and the true labels.
+
+**How it works**
+
+The gradient descent algorithm works as follows:
+
+1. Initialize the model's parameters (weights and biases) to some random values.
+2. Calculate the loss function for a given input and model parameters.
+3. Calculate the gradient of the loss function with respect to the model parameters.
+4. Update the model parameters using the gradient and the learning rate (a hyperparameter).
+5. Repeat steps 2-4 for a specified number of iterations.
+6. The model's parameters are updated to minimize the loss function.
+
+**Where it is used**
+
+Gradient descent is widely used in various applications, including:
+
+1. **Machine learning**: Gradient descent is used to train neural networks, including convolutional neural networks (CNNs) and recurrent neural networks (RNNs).
+2. **Computer vision**: Gradient descent is used to optimize image classification models, object detection models, and segmentation models.
+3. **Natural language processing**: Gradient descent is used to optimize language models, including language translation models and text classification models.
+4. **Recommendation systems**: Gradient descent is used to optimize recommendation systems, including personalized product recommendations and content recommendations.
+5. **Robotics**: Gradient descent is used to optimize control systems for robots, including robotic arm control and autonomous vehicle control.
+
+In summary, gradient descent is a powerful optimization algorithm used to train machine learning models by iteratively adjusting the model's parameters to minimize the loss function. Its applications are diverse and widespread, including computer vision, natural language processing, recommendation systems, and robotics.",True,16.546257734298706
+Llama-3.2-1B,Instruction,end_phrase,"Explain what an API is in 2-3 sentences. End your response with the exact phrase: ""This is the foundation of modern software.""",This is the foundation of modern software.,"An Application Programming Interface (API) is a set of rules and protocols that enables different software systems to communicate with each other. It allows developers to create a single interface that can be used to access and manipulate data, services, or functionality across multiple systems. This allows for seamless integration and interoperability between different applications and services.",False,3.4054033756256104
+Llama-3.2-1B,Instruction,no_numbers,Describe the water cycle without using any digits (0-9). Write in full words for any quantities.,,"I will describe the water cycle in full words, without using any digits (0-9), and without using any numbers.
+
+The water cycle is a continuous process that involves the movement of water between the Earth's surface and the atmosphere. It begins with evaporation, where the sun heats the surface of the Earth, causing water to evaporate from oceans, lakes, and rivers into the air.
+
+As the water vapor rises into the atmosphere, it cools and condenses into clouds. When the clouds become saturated with water, the water droplets fall back to the Earth's surface as precipitation, which can take the form of rain, snow, or hail.
+
+Once the precipitation reaches the ground, it can flow across the surface as runoff or seep into the soil as infiltration. The water that seeps into the soil becomes groundwater, which can eventually feed plants and animals.
+
+Eventually, the water that has seeped into the soil can be absorbed by plants, making its way back to the atmosphere through evaporation once again. This continuous cycle of evaporation, condensation, and precipitation is the water cycle.
+
+The water cycle is an essential part of the Earth's ecosystem, and it plays a crucial role in regulating the planet's climate and weather patterns.",False,10.502808332443237
+Llama-3.2-1B,Instruction,two_languages,"Translate the sentence ""Hello, how are you?"" into French and Spanish. Format your answer as:
+French: [translation]
+Spanish: [translation]","['French:', 'Spanish:']","I'll translate the sentence ""Hello, how are you?"" into French and Spanish exactly.
+
+French: Bonjour, comment vas-tu?
+Spanish: Hola, ¿cómo estás?",True,2.1177475452423096
+Llama-3.2-1B,STEM,ML,"Which optimisation algorithm uses both momentum and adaptive learning rates?
+A) SGD  B) Adam  C) RMSprop  D) Adagrad",B,"A) SGD
+
+Explanation: 
+SGD (Stochastic Gradient Descent) is an optimisation algorithm that uses both momentum and adaptive learning rates. The adaptive learning rate is a technique used to adjust the learning rate during each iteration, which helps to prevent the algorithm from getting stuck in a local minimum. Momentum is a technique used to accelerate the algorithm's progress towards the optimal solution.",False,3.324070692062378
+Llama-3.2-1B,STEM,ML,"What does the ""kernel trick"" allow in Support Vector Machines?
+A) Faster training  B) Working in high-dimensional feature spaces without explicit computation  C) Reducing overfitting  D) Increasing sparsity",B,"A) Faster training
+The kernel trick allows Support Vector Machines (SVMs) to train faster by reducing the number of features required to represent the data. This is achieved by mapping the data into a higher-dimensional space using a kernel function, which allows the model to learn features that are not present in the original data.
+
+B) Working in high-dimensional feature spaces without explicit computation
+This is incorrect. The kernel trick actually allows SVMs to work in lower-dimensional spaces, not higher-dimensional spaces. The kernel function maps the data into a higher-dimensional space, but the model still learns features that are not present in the original data.
+
+C) Reducing overfitting
+This is incorrect. The kernel trick actually helps to reduce overfitting by",True,6.330039024353027
+Llama-3.2-1B,STEM,ML,"In a neural network, what does dropout regularisation do?
+A) Removes neurons permanently  B) Sets weights to zero  C) Randomly deactivates neurons during training  D) Adds Gaussian noise to inputs",C,"A) Removes neurons permanently
+
+Justification: Dropout regularization is a technique used in neural networks to prevent overfitting. It randomly sets the output of a neuron to zero during training, effectively removing it from the model. This helps to prevent the model from learning too much from the training data, which can lead to overfitting and poor generalization performance on unseen data.
+
+In other words, dropout randomly sets a neuron to zero, which means it's no longer contributing to the model's predictions. This helps to prevent overfitting and allows the model to learn more generalizable features.",False,5.493911504745483
+Llama-3.2-1B,STEM,ML,"What is the vanishing gradient problem primarily associated with?
+A) Wide networks  B) Deep networks with sigmoid/tanh activations  C) Convolutional layers  D) Batch normalisation",B,"A) Wide networks
+
+The vanishing gradient problem is primarily associated with wide networks. This is because wide networks have a large number of neurons in each layer, which can lead to vanishing gradients. Vanishing gradients occur when the gradients of the loss function with respect to the weights in a layer are very small, causing the weights to become too small and the learning process to slow down.
+
+In wide networks, the gradients of the loss function with respect to the weights are often very small, leading to vanishing gradients. This is because the weights are not being updated quickly enough to prevent the weights from becoming too small.
+
+The other options are not correct because:
+
+* B) Deep networks with sigmoid/tanh activations: While deep networks can also lead to",True,6.211646556854248
+Llama-3.2-1B,STEM,ML,"Which metric is most appropriate for evaluating a model on a highly imbalanced classification task?
+A) Accuracy  B) F1-score  C) MSE  D) R-squared",B,"A) Accuracy
+
+Accuracy is the most appropriate metric for evaluating a model on a highly imbalanced classification task. This is because accuracy measures the proportion of correct predictions, which is particularly relevant in imbalanced datasets where the majority class is often the minority class.
+
+Accuracy is the most suitable metric for several reasons:
+
+1. **Practicality**: Accuracy is a practical metric that is easy to understand and interpret.
+2. **Robustness**: Accuracy is robust to outliers and noisy data, making it a reliable choice for imbalanced datasets.
+3. **Interpretability**: Accuracy provides a clear indication of the model's performance, which is essential for understanding the model's strengths and weaknesses.
+
+While other metrics like F1-score, MSE, and R-s",False,6.821850538253784
+Llama-3.2-1B,STEM,ML,"In the attention mechanism of Transformers, what are Q, K, V?
+A) Quantities, Kernels, Vectors  B) Queries, Keys, Values  C) Quotients, Knowledge, Variables  D) None of the above",B,"A) Quantities, Kernels, Vectors
+
+Explanation:
+- Q: Quantities refer to the input features or the values of the input variables.
+- K: Kernels are the weights or the parameters that are used to transform the input features into the output features.
+- V: Vectors are the output features or the values of the output variables.
+
+Justification: These three terms are fundamental components of the attention mechanism in Transformers, which is responsible for selectively focusing on certain parts of the input data.",False,4.288805246353149
+Llama-3.2-1B,STEM,ML,"What does a ROC curve plot?
+A) Precision vs Recall  B) Loss vs Epochs  C) True Positive Rate vs False Positive Rate  D) Accuracy vs Threshold",C,"A) Precision vs Recall
+
+The ROC (Receiver Operating Characteristic) curve plots the precision (True Positive Rate) against the recall (False Positive Rate) at different thresholds. Precision is the proportion of true positives among all positive predictions, while recall is the proportion of true positives among all actual positive instances. The ROC curve shows the trade-off between these two metrics, with higher precision and recall indicating better performance.",False,4.013929843902588
+Llama-3.2-1B,STEM,ML,"Which of the following is NOT a hyperparameter?
+A) Learning rate  B) Number of layers  C) Learned weights  D) Batch size",C,"D) Batch size
+
+Justification: Hyperparameters are parameters that are adjusted during training to improve the model's performance. In this case, batch size is a hyperparameter because it is adjusted during training to control the size of the mini-batch used for training.
+
+The other options are not hyperparameters:
+
+A) Learning rate is a hyperparameter because it is adjusted during training to control the rate at which the model learns from the data.
+
+B) Number of layers is a hyperparameter because it is adjusted during training to control the complexity of the model.
+
+C) Learned weights are not typically considered hyperparameters. Learned weights are the actual weights that the model is using to make predictions, and they are not adjusted during training.",True,6.0411598682403564
+Llama-3.2-1B,STEM,Math,"What is the derivative of f(x) = x³ + 2x² - 5x + 1?
+A) 3x² + 4x - 5  B) 3x² + 2x - 5  C) x² + 4x - 5  D) 3x² + 4x + 1",A,"To find the derivative of f(x) = x³ + 2x² - 5x + 1, we'll apply the power rule of differentiation.
+
+1. The derivative of x³ is 3x².
+2. The derivative of 2x² is 4x.
+3. The derivative of -5x is -5.
+4. The derivative of 1 is 0.
+
+Combining these, we get f'(x) = 3x² + 4x - 5.
+
+So, the correct answer is A) 3x² + 4x - 5.",True,5.637217283248901
+Llama-3.2-1B,STEM,Math,"If P(A) = 0.4 and P(B) = 0.3 and A, B are independent, what is P(A ∩ B)?
+A) 0.7  B) 0.1  C) 0.12  D) 0.58",C,"To find P(A ∩ B), we need to find P(A) and P(B) separately and then multiply them.
+
+P(A) = 0.4
+P(B) = 0.3
+
+Since A and B are independent, P(A ∩ B) = P(A) * P(B) = 0.4 * 0.3 = 0.12
+
+Therefore, the correct answer is C) 0.12.",True,4.107061147689819
+Llama-3.2-1B,STEM,Math,"What is the eigenvalue of a 2×2 identity matrix?
+A) 0  B) 2  C) 1  D) Undefined",C,"D) Undefined
+
+The 2×2 identity matrix is:
+
+I = | 1  0 |
+    | 0  1 |
+
+To find the eigenvalues, we need to solve the characteristic equation:
+
+|I - λI| = 0
+
+Substituting I, we get:
+
+|1 - λ| = 0
+
+This equation has no real solutions, which means the eigenvalues are undefined in the real number system.
+
+Therefore, the correct answer is D) Undefined.",False,4.227267265319824
+Llama-3.2-1B,STEM,Math,"In a standard normal distribution, what percentage of values fall within 2 standard deviations of the mean?
+A) 68%  B) 90%  C) 95%  D) 99.7%",C,"C) 95%
+
+In a standard normal distribution, 95% of the values fall within 2 standard deviations of the mean. This is because the mean, median, and mode are all located at the center of the distribution, and the remaining 5% of the values are symmetrically distributed on either side of the mean.",True,3.048478841781616
+Llama-3.2-1B,STEM,CS,"What is the Big-O complexity of binary search?
+A) O(n)  B) O(log n)  C) O(n log n)  D) O(1)",B,"A) O(n)
+
+Binary search is a common algorithm in computer science. It works by repeatedly dividing the search space in half. The time complexity of binary search is O(log n), where n is the number of elements in the search space. This is because the algorithm performs a constant number of operations for each element in the search space, and the number of operations grows logarithmically with the size of the search space.
+
+The justification for this answer is that binary search is a divide-and-conquer algorithm, where the search space is divided in half at each step. This process continues until the search space is reduced to a single element, at which point the algorithm has found the solution. The number of operations performed by the algorithm grows logarithmically",False,6.9336841106414795
+Llama-3.2-1B,STEM,Physics,"What is the unit of electrical resistance?
+A) Volt  B) Ampere  C) Ohm  D) Watt",C,"C) Ohm
+
+The unit of electrical resistance is the Ohm (Ω). It is defined as the ratio of the potential difference (voltage) to the current flowing through a conductor. In other words, Ohm is the unit of electrical resistance, where 1 Ohm = 1 Volt / 1 Ampere.",True,2.8746702671051025
+Llama-3.2-1B,STEM,Physics,"Which law states that the current through a conductor is proportional to the voltage across it?
+A) Faraday's Law  B) Ohm's Law  C) Kirchhoff's Voltage Law  D) Ampere's Law",B,"The correct answer is B) Ohm's Law.
+
+Ohm's Law states that the current through a conductor is proportional to the voltage across it, and it is mathematically represented as:
+
+I = V/R
+
+Where:
+- I = current through the conductor
+- V = voltage across the conductor
+- R = resistance of the conductor
+
+This law is a fundamental principle in electricity and is widely used to calculate the current flowing through a circuit.",True,4.388850927352905
+Llama-3.2-1B,STEM,Physics,"What type of modulation is used in Bluetooth audio transmission?
+A) AM  B) FM  C) GFSK  D) PCM",C,"C) GFSK
+
+GFSK stands for Gaussian Frequency Shift Keying. It is a type of modulation used in Bluetooth audio transmission. GFSK is a low-rate, low-power modulation scheme that allows for efficient transmission of audio data over short distances. It is widely used in Bluetooth technology due to its efficiency and low power consumption.",True,2.8794353008270264
+Llama-3.2-1B,STEM,Physics,"In digital signal processing, what does the Nyquist theorem specify?
+A) Maximum signal amplitude  B) Minimum sampling rate to reconstruct a signal  C) Compression ratio  D) Filter bandwidth",B,"A) Maximum signal amplitude
+
+The Nyquist theorem specifies that the sampling rate of a signal must be at least twice the highest frequency component of the signal. This is to ensure that the signal can be accurately reconstructed from its samples.",False,1.9544217586517334
+Llama-3.2-1B,STEM,CS,"What data structure does BFS (Breadth-First Search) use internally?
+A) Stack  B) Heap  C) Queue  D) Tree",C,"C) Queue
+
+BFS (Breadth-First Search) is a graph traversal algorithm that visits all nodes at a given depth before moving on to the next depth. It uses a queue data structure internally to keep track of nodes to visit.
+
+Here's why:
+
+- A queue is a First-In-First-Out (FIFO) data structure, which is suitable for BFS because it allows the algorithm to keep track of the nodes to visit in the order they are visited.
+- A stack is not typically used in BFS because it's not a First-In-First-Out (FIFO) data structure, and it's not suitable for graph traversal algorithms that need to visit nodes at a given depth before moving on to the next depth.
+- A",True,6.580895900726318
+Llama-3.2-1B,STEM,CS,"Which sorting algorithm has O(n log n) worst-case complexity?
+A) Bubble Sort  B) Quick Sort  C) Merge Sort  D) Insertion Sort",C,"A) Bubble Sort
+
+Bubble sort has a worst-case time complexity of O(n log n) because it performs a series of comparisons and swaps until it reaches the end of the array. In the worst case, it has to compare and swap every element in the array, resulting in a time complexity of O(n log n).
+
+The other options do not have O(n log n) worst-case complexity:
+
+* Quick Sort has an average-case time complexity of O(n log n) but a worst-case time complexity of O(n^2) in the case of random keys.
+* Merge Sort has a worst-case time complexity of O(n log n) but a best-case time complexity of O(n).
+* Insertion Sort has a worst-case time complexity of",False,6.547449111938477
+Llama-3.2-1B,STEM,CS,"What does CPU cache L1/L2/L3 hierarchy represent?
+A) Storage capacity only  B) Speed and proximity to CPU core  C) Power consumption  D) Instruction set size",B,"A) Storage capacity only
+
+The CPU cache L1, L2, and L3 hierarchy represents the storage capacity of the CPU. L1 is the smallest cache, L2 is a larger cache, and L3 is the largest cache. The size of the cache is directly related to the number of instructions the CPU can execute per second. A larger cache means more instructions can be executed simultaneously, which can improve performance.
+
+The other options are incorrect because:
+
+* B) Speed and proximity to CPU core: The cache hierarchy is not directly related to the speed of the CPU or its proximity to the CPU core.
+* C) Power consumption: The cache hierarchy is not directly related to power consumption.
+* D) Instruction set size: The cache hierarchy",True,6.993788480758667
