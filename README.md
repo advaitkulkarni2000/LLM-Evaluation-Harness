@@ -178,5 +178,5 @@ implications for fine-tuning and prompt engineering.
 
 ---
 
-*Author: Advait Kulkarni | Imperial College London MSc Applied Machine Learning 2025–2026*
+*Author: Advait Kulkarni | Imperial College London MSc Applied Machine Learning 2025–2026* |
 *Companion project: [Systematic Backtesting Framework](https://github.com/advaitkulkarni2000/Systematic-Backtesting)*
